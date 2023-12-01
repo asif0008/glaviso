@@ -1,0 +1,1191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio-Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+</head>
+
+<body class="body-wrapper" id="body-wrapper">
+    <section class="circle-arrow">
+        <div class="circle" style="transform: translate(841px, 425px); opacity: 1;"></div>
+        <div class="circle-follow" style="transform: translate(494px, 656px);"></div>
+    </section>
+    <header>
+        <div class="paddin-32">
+            <div class="glaviso-container">
+                <ul class="glaviso-navbar list-unstyled d-flex flex-row justify-content-between align-items-center">
+                    <li class="d-md-flex d-none"><a href="#">Home</a></li>
+                    <li class="d-md-flex d-none"><a href="#">Portfolio</a></li>
+                    <li><a href="#"><img src="assets/images/Glaviso-logo.png" alt="Glaviso-log" class="header-logo"></a>
+                    </li>
+                    <li class="d-md-flex d-none"><a href="#">Services</a></li>
+                    <li class="d-md-flex d-none"><a href="#" class="contact-us btn-3">Contact us</a></li>
+                    <li class="d-md-none flex"><svg id="hamburger_menu" width="28" height="28" viewBox="0 0 32 32"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.667 8H5.33366M26.667 16H16.0003M26.667 24H5.33366" stroke="#023047"
+                                stroke-opacity="0.8" stroke-width="2.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- mobile-header -->
+    <div class="responsive_header slide-left " id="side-nav">
+        <div class="d-flex flex-row justify-content-between pb-5">
+            <div><img src="assets/images/Glaviso-logo.png" width="197px"></div>
+            <span id="close-side-nav">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 24L8 8M24 8L8 24" stroke="#023047" stroke-opacity="0.8" stroke-width="2.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </span>
+        </div>
+        <ul class="d-flex flex-column side-nav-accordion list-unstyled">
+            <li><a href="" class="side-nav-links">Home</a></li>
+            <li>
+                <div class="accordion accordion-flush " id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button
+                                class="accordion-button collapsed d-flex flex-row justify-content-between gap-2 align-items-center"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                aria-expanded="false" aria-controls="flush-collapseOne">
+                                <span>Services</span>
+
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="24" height="24" rx="12" fill="#EBEBEB" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M6.35147 8.7515C6.8201 8.28287 7.5799 8.28287 8.04853 8.7515L12 12.703L15.9515 8.7515C16.4201 8.28287 17.1799 8.28287 17.6485 8.7515C18.1172 9.22013 18.1172 9.97992 17.6485 10.4486L12.8485 15.2486C12.3799 15.7172 11.6201 15.7172 11.1515 15.2486L6.35147 10.4486C5.88284 9.97992 5.88284 9.22013 6.35147 8.7515Z"
+                                        fill="#023047" />
+                                </svg>
+
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body pt-2">
+                                <ul class="side-nav-glaviso list-unstyled d-flex flex-column gap-4">
+                                    <li><a class="glavios-links" href="https://glaviso.com/web_development">Web
+                                            Development</a></li>
+                                    <li><a class="glavios-links"
+                                            href="https://glaviso.com/mobile_app_development">Mobile
+                                            App Development</a></li>
+                                    <li><a class="glavios-links" href="https://glaviso.com/ui_ux">Web/Graphic
+                                            Designing</a>
+                                    </li>
+                                    <li><a class="glavios-links" href="https://glaviso.com/seo">Search Engine
+                                            Optimization</a></li>
+                                    <li><a class="glavios-links"
+                                            href="https://glaviso.com/desktop_app_development">Desktop
+                                            App Development</a></li>
+                                    <li><a class="glavios-links" href="https://glaviso.com/contact_writer">Contact
+                                            Writer</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li><a href="" class="side-nav-links">Portfolio</a></li>
+            <li class="mt-4"><a href="#" class="contact-us btn-3 side-nav-btn">Contact us</a></li>
+        </ul>
+    </div>
+    <!-- banner-section -->
+    <section class="glaviso-banner d-flex  align-items-center portfolio-detail">
+        <div class="glaviso-container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 d-flex align-items-center flex-column gap-3 justify-content-center">
+                    <div class="banner-text tilt js-tilt">
+                        <h1 class="font-50 text-white ">BANK DASHBOARD</h1>
+                        <label class="technologies-badge">Web Development</label>
+                        <p class="font-18 text-white my-4">A bank statistics dashboard provides a concise and visual
+                            representation of various key performance indicators (KPIs) and metrics related to the
+                            bank's operations, financial performance, and customer interactions.
+                    </div>
+                    <form action="" class="row w-100 banner-form">
+                        <div class="col-12 ps-lg-0 col-padding">
+                            <button class="btn-contain">
+                                GET A QUOTE
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex align-items-center px-md-5  justify-content-lg-center">
+                    <img src="assets/images/saas-dashboard.png" alt="desktop"
+                        class="img-fluid animated pt-lg-0 pt-5 pb-3 ">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- waving-section -->
+    <div class="waving-line position-relative pt-8 pb-md-4 ">
+        <img src="assets/images/left-vector.png" alt="" class="left-vector">
+        <div class="paddin-32">
+            <div class="glaviso-container">
+
+                <div class="d-flex flex-row align-items-center gap-3 mb-lg-0 mb-2">
+                    <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1.67468 6.82735L11.5 1.1547L21.3253 6.82735V18.1726L11.5 23.8453L1.67468 18.1726V6.82735Z"
+                            fill="white" stroke="#214BDB" stroke-width="2"></path>
+                    </svg>
+                    <h3 class="font-26 mb-0 text-primar-100 z-1">
+                        CASE STUDY
+                    </h3>
+                </div>
+                <h1 class="font-50 my-lg-3 my-2 text-primar-100 z-1">
+                    Case Study of <br>
+                    DACATI Bank
+
+                </h1>
+            </div>
+        </div>
+    </div>
+    <section class="our-portfolio position-relative mt-lg-5 mt-3 detail">
+        <div class="paddin-32">
+            <div class="glaviso-container py-md-5 py-3">
+                <div class="row mb-lg-5 mb-3">
+                    <div class="col-12 col-lg-6  z-1 mb-lg-0 mb-4">
+                        <div class="d-flex flex-row align-items-center gap-3 mb-lg-0 mb-2">
+                            <svg width="23" height="25" viewBox="0 0 23 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M1.67468 6.82735L11.5 1.1547L21.3253 6.82735V18.1726L11.5 23.8453L1.67468 18.1726V6.82735Z"
+                                    fill="white" stroke="#214BDB" stroke-width="2" />
+                            </svg>
+                            <h3 class="font-26 mb-0 text-primar-100">
+                                BRIEF
+                            </h3>
+                        </div>
+                        <h1
+                            class="font-50 mt-3 mb-3 text-primar-100  mb-3 d-flex flex-row justify-content-between gap-3 flex-wrap align-items-center">
+                            <span>What is DACATI Bank?</span>
+                        </h1>
+                        <p class="font-18 text-primar-100">
+                            A bank statistics dashboard provides a concise and visual representation of various key
+                            performance indicators (KPIs) and metrics related to the bank's operations, financial
+                            performance, and customer interactions.
+                        </p>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                            <li class="font-18 text-primar-100">Company: <b>Dacati Bank</b>
+                            </li>
+                            <li class="font-18 text-primar-100">Industry: <b> Bank</b>
+                            </li>
+                            <li class="font-18 text-primar-100">
+                                Location: <b>New York</b>
+                            </li>
+                            <!-- <li class="font-18 text-primar-100">
+                                Website <a href="">http://aesthetichqs.com</a>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-5 offset-lg-1 d-flex align-items-center justify-content-lg-center">
+                        <img src="assets/images/saas-dashboard.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row mb-lg-5 mb-3">
+                    <div class="col-12 col-lg-5 d-flex align-items-center order-lg-0 order-1 justify-content-center">
+                        <img src="assets/images/bank-dashboard-two.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-lg-6  z-1 mb-lg-0 mb-4 offset-lg-1 order-lg-0 order-0">
+                        <div class="d-flex flex-row align-items-center gap-3 mb-lg-0 mb-2">
+                            <svg width="23" height="25" viewBox="0 0 23 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M1.67468 6.82735L11.5 1.1547L21.3253 6.82735V18.1726L11.5 23.8453L1.67468 18.1726V6.82735Z"
+                                    fill="white" stroke="#214BDB" stroke-width="2" />
+                            </svg>
+                            <h3 class="font-26 mb-0 text-primar-100">
+                                CHALLENGES
+                            </h3>
+                        </div>
+                        <h1
+                            class="font-50 mt-3 mb-3 text-primar-100  mb-3 d-flex flex-row justify-content-between gap-3 flex-wrap align-items-center">
+                            <span>What Challenges<br>
+                                During Project ?</span>
+                        </h1>
+
+                        <p class="font-18 text-primar-100 mb-3"><b>Financial Performance:</b></p>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                            <li class="font-18 text-primar-100 ps-3"> <b>Total Assets: </b> Display the total value of
+                                assets held by the bank.
+                            </li>
+                            <li class="font-18 text-primar-100 ps-3">
+                                <b>Net Income:</b> Visualize the bank's profitability over a specific period.
+                            </li>
+                            <li class="font-18 text-primar-100 ps-3">
+                                <b>Loan Portfolio:</b> Illustrate the composition and growth of the bank's loan
+                                portfolio.
+                            </li>
+                        </ul>
+
+
+                        <p class="font-18 text-primar-100 mb-3"><b>Customer Metrics:</b></p>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                            <li class="font-18 text-primar-100 ps-3"> <b>Number of Accounts:</b> Showcase the total
+                                number of active accounts.
+                            </li>
+                            <li class="font-18 text-primar-100 ps-3"> <b>Customer Demographics: </b> Display demographic
+                                information about the customer base, such as age groups, locations, etc.
+                            </li>
+                        </ul>
+                        <p class="font-18 text-primar-100 mb-3 my-3"><b>
+                                Transaction Data:</b></p>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                            <li class="font-18 text-primar-100 ps-3"> <b>Transaction Volume:</b> Represent the total
+                                number and value of transactions processed.
+                            </li>
+                            <li class="font-18 text-primar-100 ps-3"> <b>Top Transactions: </b>
+                                Highlight the most frequent or high-value transaction types.
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="row mb-lg-5 mb-3">
+                    <div class="col-12 col-lg-6  z-1 mb-lg-0 mb-4 ">
+                        <div class="d-flex flex-row align-items-center gap-3 mb-lg-0 mb-2">
+                            <svg width="23" height="25" viewBox="0 0 23 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M1.67468 6.82735L11.5 1.1547L21.3253 6.82735V18.1726L11.5 23.8453L1.67468 18.1726V6.82735Z"
+                                    fill="white" stroke="#214BDB" stroke-width="2" />
+                            </svg>
+                            <h3 class="font-26 mb-0 text-primar-100">
+                                SOLUTIONS
+                            </h3>
+                        </div>
+                        <h1
+                            class="font-50 mt-3 mb-3 text-primar-100  mb-3 d-flex flex-row justify-content-between gap-3 flex-wrap align-items-center">
+                            <span>What Possible <br>
+                                Solution ?</span>
+                            <!-- <img src="assets/images/main_new_logo 1.png" alt="" width='107px'> -->
+                        </h1>
+
+                        <p class="font-18 text-primar-100 mb-3"><b>Deposits and Withdrawals:</b></p>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                            <li class="font-18 text-primar-100 ps-3"> <b> Deposit and Withdrawal Trends: </b> Visualize
+                                patterns in deposit and withdrawal activities.
+
+                            </li>
+                            <li class="font-18 text-primar-100 ps-3">
+                                <b>Account Funding Sources:</b> Show the sources of deposits, such as transfers, checks,
+                                and direct deposits.
+                            </li>
+                        </ul>
+
+
+                        <p class="font-18 text-primar-100 mb-3"><b>Interest Rates and Yield:</b></p>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                            <li class="font-18 text-primar-100 ps-3"> <b> Interest Rate Overview:</b>
+                                Display current interest rates for loans, deposits, and other financial products.
+                            </li>
+                            <li class="font-18 text-primar-100 ps-3"> <b> Yield Analysis:</b>
+                                Provide insights into the overall yield of the bank's financial products.
+                            </li>
+                        </ul>
+                        <p class="font-18 text-primar-100 mb-3 my-3"><b>
+                                Expense Management:</b></p>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+
+
+                            <li class="font-18 text-primar-100 ps-3"> <b>Expense Breakdown:</b> Present a breakdown of
+                                operating expenses, including personnel, technology, and facility costs.
+                            </li>
+                            <li class="font-18 text-primar-100 ps-3"> <b>Cost-to-Income Ratio: </b> Calculate and
+                                display the cost-to-income ratio for performance analysis.
+                            </li>
+                        </ul>
+                        <p class="font-18 text-primar-100 mb-3 my-3"><b>
+                                User Authentication and Security:</b></p>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+
+
+                            <li class="font-18 text-primar-100 ps-3"> <b>Secure Login: </b> Ensure secure user
+                                authentication with features like two-factor authentication.
+                            </li>
+                            <li class="font-18 text-primar-100 ps-3"> <b>Data Encryption:</b> Implement encryption to
+                                secure user data and transactions.
+                            </li>
+                        </ul>
+                        <p class="font-18 text-primar-100 mb-3 my-3"><b>
+                                Customer Satisfaction Metrics:
+                            </b></p>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+
+                            <li class="font-18 text-primar-100 ps-3"> <b>Net Promoter Score (NPS):</b> Collect and
+                                display NPS to gauge customer satisfaction.
+                            </li>
+                            <li class="font-18 text-primar-100 ps-3"> <b>Customer Feedback Analysis:</b> Integrate
+                                customer feedback data for continuous improvement.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-5 offset-lg-1 d-flex align-items-center">
+                        <img src="assets/images/bank-dashboard-three.png" alt="" class="img-fluid">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfoli-showcase -->
+    <div class="waving-line position-relative pt-8">
+        <img src="assets/images/left-vector.png" alt="" class="left-vector">
+        <div class="paddin-32">
+            <div class="glaviso-container">
+
+
+                <div class="d-flex flex-row align-items-center gap-3 mb-lg-0 mb-2">
+                    <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1.67468 6.82735L11.5 1.1547L21.3253 6.82735V18.1726L11.5 23.8453L1.67468 18.1726V6.82735Z"
+                            fill="white" stroke="#214BDB" stroke-width="2"></path>
+                    </svg>
+                    <h3 class="font-26 mb-0 text-primar-100 z-1">
+                        INTERFACE
+                    </h3>
+                </div>
+                <h1
+                    class="font-50 my-lg-3 my-2 text-primar-100 z-1 d-flex flex-row justify-content-between gap-3 align-items-center">
+                    <span> Real time View</span>
+                    <img src="assets/images/Glaviso-logo.png" alt="" width="250px">
+                </h1>
+            </div>
+        </div>
+    </div>
+    <section class="showcase-demo">
+        <div class="paddin-32  mt-6">
+            <div class="glaviso-container justify-content-center d-flex">
+                <img src="assets/images/bank-dashboard-realtime.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </section>
+    <!-- our-technology -->
+    <div class="waving-line position-relative pt-8">
+        <img src="assets/images/left-vector.png" alt="" class="left-vector">
+        <div class="paddin-32">
+            <div class="glaviso-container">
+
+
+                <div class="d-flex flex-row align-items-center gap-3 mb-lg-0 mb-2">
+                    <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1.67468 6.82735L11.5 1.1547L21.3253 6.82735V18.1726L11.5 23.8453L1.67468 18.1726V6.82735Z"
+                            fill="white" stroke="#214BDB" stroke-width="2"></path>
+                    </svg>
+                    <h3 class="font-26 mb-0 text-primar-100 z-1">
+                        OUR TECHNOLOGIES
+                    </h3>
+                </div>
+                <h1 class="font-50 my-lg-3 my-2 text-primar-100 z-1">
+                    Technologies and <br> Platforms We Work With
+                </h1>
+            </div>
+        </div>
+    </div>
+    <section class="core-tech-wrapper py-5 mt-5 z-1 ">
+        <div class="paddin-32">
+            <div class="glaviso-container">
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <div class="nav flex-lg-column flex-row nav-pills me-3 gap-3" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <button class="glaviso-tabs-btn one active" id="v-pills-frontend-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-frontend" type="button" role="tab"
+                                aria-controls="v-pills-frontend" aria-selected="true"><span>Frontend Stack</span> <svg
+                                    width="8" height="12" viewBox="0 0 8 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.751466 11.6485C0.282837 11.1799 0.282837 10.4201 0.751466 9.95147L4.70294 6L0.751466 2.04853C0.282837 1.5799 0.282837 0.820101 0.751466 0.351472C1.22009 -0.117157 1.97989 -0.117157 2.44852 0.351472L7.24852 5.15147C7.71715 5.6201 7.71715 6.3799 7.24852 6.84853L2.44852 11.6485C1.97989 12.1172 1.2201 12.1172 0.751466 11.6485Z"
+                                        fill="#023047"></path>
+                                </svg>
+                            </button>
+                            <button class="glaviso-tabs-btn two" id="v-pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-profile" type="button" role="tab"
+                                aria-controls="v-pills-profile" aria-selected="false" tabindex="-1"><span>Backend Stack
+                                </span> <svg width="8" height="12" viewBox="0 0 8 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.751466 11.6485C0.282837 11.1799 0.282837 10.4201 0.751466 9.95147L4.70294 6L0.751466 2.04853C0.282837 1.5799 0.282837 0.820101 0.751466 0.351472C1.22009 -0.117157 1.97989 -0.117157 2.44852 0.351472L7.24852 5.15147C7.71715 5.6201 7.71715 6.3799 7.24852 6.84853L2.44852 11.6485C1.97989 12.1172 1.2201 12.1172 0.751466 11.6485Z"
+                                        fill="#023047"></path>
+                                </svg>
+                            </button>
+                            <button class="glaviso-tabs-btn three" id="v-pills-disabled-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-disabled" type="button" role="tab"
+                                aria-controls="v-pills-disabled" aria-selected="false" tabindex="-1"><span>Cloud
+                                    Stack</span> <svg width="8" height="12" viewBox="0 0 8 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.751466 11.6485C0.282837 11.1799 0.282837 10.4201 0.751466 9.95147L4.70294 6L0.751466 2.04853C0.282837 1.5799 0.282837 0.820101 0.751466 0.351472C1.22009 -0.117157 1.97989 -0.117157 2.44852 0.351472L7.24852 5.15147C7.71715 5.6201 7.71715 6.3799 7.24852 6.84853L2.44852 11.6485C1.97989 12.1172 1.2201 12.1172 0.751466 11.6485Z"
+                                        fill="#023047"></path>
+                                </svg>
+                            </button>
+                            <button class="glaviso-tabs-btn four" id="v-pills-database-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-database" type="button" role="tab"
+                                aria-controls="v-pills-database" aria-selected="false"
+                                tabindex="-1"><span>Database</span> <svg width="8" height="12" viewBox="0 0 8 12"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.751466 11.6485C0.282837 11.1799 0.282837 10.4201 0.751466 9.95147L4.70294 6L0.751466 2.04853C0.282837 1.5799 0.282837 0.820101 0.751466 0.351472C1.22009 -0.117157 1.97989 -0.117157 2.44852 0.351472L7.24852 5.15147C7.71715 5.6201 7.71715 6.3799 7.24852 6.84853L2.44852 11.6485C1.97989 12.1172 1.2201 12.1172 0.751466 11.6485Z"
+                                        fill="#023047"></path>
+                                </svg>
+                            </button>
+                            <button class="glaviso-tabs-btn five" id="v-pills-mobile-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-mobile" type="button" role="tab" aria-controls="v-pills-mobile"
+                                aria-selected="false" tabindex="-1"><span>Mobile </span><svg width="8" height="12"
+                                    viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.751466 11.6485C0.282837 11.1799 0.282837 10.4201 0.751466 9.95147L4.70294 6L0.751466 2.04853C0.282837 1.5799 0.282837 0.820101 0.751466 0.351472C1.22009 -0.117157 1.97989 -0.117157 2.44852 0.351472L7.24852 5.15147C7.71715 5.6201 7.71715 6.3799 7.24852 6.84853L2.44852 11.6485C1.97989 12.1172 1.2201 12.1172 0.751466 11.6485Z"
+                                        fill="#023047"></path>
+                                </svg>
+                            </button>
+                            <button class="glaviso-tabs-btn six" id="v-pills-full-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-full" type="button" role="tab" aria-controls="v-pills-full"
+                                aria-selected="false" tabindex="-1"><span>Full Stacks</span> <svg width="8" height="12"
+                                    viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.751466 11.6485C0.282837 11.1799 0.282837 10.4201 0.751466 9.95147L4.70294 6L0.751466 2.04853C0.282837 1.5799 0.282837 0.820101 0.751466 0.351472C1.22009 -0.117157 1.97989 -0.117157 2.44852 0.351472L7.24852 5.15147C7.71715 5.6201 7.71715 6.3799 7.24852 6.84853L2.44852 11.6485C1.97989 12.1172 1.2201 12.1172 0.751466 11.6485Z"
+                                        fill="#023047"></path>
+                                </svg>
+                            </button>
+                            <button class="glaviso-tabs-btn seven" id="v-pills-devops-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-devops" type="button" role="tab" aria-controls="v-pills-devops"
+                                aria-selected="false" tabindex="-1"><span>DevOps</span> <svg width="8" height="12"
+                                    viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.751466 11.6485C0.282837 11.1799 0.282837 10.4201 0.751466 9.95147L4.70294 6L0.751466 2.04853C0.282837 1.5799 0.282837 0.820101 0.751466 0.351472C1.22009 -0.117157 1.97989 -0.117157 2.44852 0.351472L7.24852 5.15147C7.71715 5.6201 7.71715 6.3799 7.24852 6.84853L2.44852 11.6485C1.97989 12.1172 1.2201 12.1172 0.751466 11.6485Z"
+                                        fill="#023047"></path>
+                                </svg>
+                            </button>
+                            <button class="glaviso-tabs-btn eight" id="v-pills-testing-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-testing" type="button" role="tab"
+                                aria-controls="v-pills-testing" aria-selected="false" tabindex="-1"><span>Testing
+                                    Tools</span> <svg width="8" height="12" viewBox="0 0 8 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.751466 11.6485C0.282837 11.1799 0.282837 10.4201 0.751466 9.95147L4.70294 6L0.751466 2.04853C0.282837 1.5799 0.282837 0.820101 0.751466 0.351472C1.22009 -0.117157 1.97989 -0.117157 2.44852 0.351472L7.24852 5.15147C7.71715 5.6201 7.71715 6.3799 7.24852 6.84853L2.44852 11.6485C1.97989 12.1172 1.2201 12.1172 0.751466 11.6485Z"
+                                        fill="#023047"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-9 ps-md-4 ps-5 mt-lg-0 mt-4">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-frontend" role="tabpanel"
+                                aria-labelledby="v-pills-frontend-tab" tabindex="0">
+                                <div class="d-flex flex-row flex-wrap gap-5">
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src="  https://glaviso.com/glaviso/assets/images/html.png"
+                                                alt="html icon"></div>
+                                        <div> <span class="technologies-text">HTML 5</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/css.png"
+                                                alt="css icon">
+                                        </div>
+                                        <div> <span class="technologies-text">CSS 3</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/reactjs.png"
+                                                alt="reactjs icon"></div>
+                                        <div> <span class="technologies-text">React Js</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/vuejs.png"
+                                                alt="vue icon">
+                                        </div>
+                                        <div> <span class="technologies-text">Vue Js</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/ajax.png"
+                                                alt="ajax icon">
+                                        </div>
+                                        <div> <span class="technologies-text">Ajax</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/bootsrap.png"
+                                                alt="bootstrap icon"></div>
+                                        <div> <span class="technologies-text">Bootstrap</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/jquery.png"
+                                                alt="jquery icon" width="90px"></div>
+                                        <div> <span class="technologies-text">Jquery</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                aria-labelledby="v-pills-profile-tab" tabindex="0">
+                                <div class="d-flex flex-row flex-wrap gap-5">
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/php.png"
+                                                alt="php icon">
+                                        </div>
+                                        <div> <span class="technologies-text">PHP</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-0">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/node.png"
+                                                alt="nodejs icon"></div>
+                                        <div> <span class="technologies-text">Node Js</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/laravel.png"
+                                                alt="laravel icon"></div>
+                                        <div> <span class="technologies-text">Laravel</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/expressjs.png"
+                                                alt="expresjs icon"></div>
+                                        <div> <span class="technologies-text">Express<br>
+                                                Js</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel"
+                                aria-labelledby="v-pills-disabled-tab" tabindex="0">
+                                <div class="d-flex flex-row flex-wrap gap-5">
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/aws.png"
+                                                alt="aws icon">
+                                        </div>
+                                        <div> <span class="technologies-text">AWS</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src="https://glaviso.com/glaviso/assets/images/digitalocean.png"
+                                                alt="digitalocean icon"></div>
+                                        <div> <span class="technologies-text ">Digital <br>Ocean</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/vultcloud.png"
+                                                alt="vultrvcloud icon"></div>
+                                        <div> <span class="technologies-text">Vultr <br>Cloud</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-database" role="tabpanel"
+                                aria-labelledby="v-pills-database-tab" tabindex="0">
+                                <div class="d-flex flex-row flex-wrap gap-5">
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/mysql.png"
+                                                alt="mysql icon"></div>
+                                        <div> <span class="technologies-text">MySQL</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/mongo.png"
+                                                alt="mongodb icon"></div>
+                                        <div> <span class="technologies-text ">MongoDB</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/firebase.png"
+                                                alt="firebase icon"></div>
+                                        <div> <span class="technologies-text">Firebase</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-mobile" role="tabpanel"
+                                aria-labelledby="v-pills-mobile-tab" tabindex="0">
+                                <div class="d-flex flex-row flex-wrap gap-5">
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/ios.png"
+                                                alt="ios icon">
+                                        </div>
+                                        <div> <span class="technologies-text">iOS</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/andriod.png"
+                                                alt="android icon"></div>
+                                        <div> <span class="technologies-text ">Android</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/flutter.png"
+                                                alt="flutter icon"></div>
+                                        <div> <span class="technologies-text">Flutter</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/reactjs.png"
+                                                alt="reactnative icon"></div>
+                                        <div> <span class="technologies-text">React <br>Native</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-full" role="tabpanel"
+                                aria-labelledby="v-pills-full-tab" tabindex="0">
+                                <div class="d-flex flex-row flex-wrap gap-5">
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/php.png"
+                                                alt="php icon">
+                                        </div>
+                                        <div> <span class="technologies-text">PHP</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/node.png"
+                                                alt="nodejs icon"></div>
+                                        <div> <span class="technologies-text ">Node Js</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/reactjs.png"
+                                                alt="reactjs icon"></div>
+                                        <div> <span class="technologies-text">React Js</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/vuejs.png"
+                                                alt="vuejs icon"></div>
+                                        <div> <span class="technologies-text">Vue Js</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/angular.png"
+                                                alt="angularjs icon"></div>
+                                        <div> <span class="technologies-text">Angular Js</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/bootsrap.png"
+                                                alt="bootstrap icon"></div>
+                                        <div> <span class="technologies-text">Bootstrap</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-0">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/lamp.png"
+                                                alt="lampstack icon"></div>
+                                        <div> <span class="technologies-text">LAMP<br>
+                                                Stack</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-0">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/mern.png"
+                                                alt="mernstack icon"></div>
+                                        <div> <span class="technologies-text">MERN<br>
+                                                Stack</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-1">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/mean.png"
+                                                alt="meanstack icon"></div>
+                                        <div> <span class="technologies-text">MERN<br>
+                                                Stack</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-devops" role="tabpanel"
+                                aria-labelledby="v-pills-devops-tab" tabindex="0">
+                                <div class="d-flex flex-row flex-wrap gap-5">
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/gitlab.png"
+                                                alt="gitlab icon"></div>
+                                        <div> <span class="technologies-text">GitLab</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/github.png"
+                                                alt="github icon"></div>
+                                        <div> <span class="technologies-text ">GitHub</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/docker.png"
+                                                alt="docker icon"></div>
+                                        <div> <span class="technologies-text">Docker</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/Jenkins.png"
+                                                alt="jenkins icon"></div>
+                                        <div> <span class="technologies-text">Jenkins</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/bitbucket.png"
+                                                alt="bitbucket icon"></div>
+                                        <div> <span class="technologies-text">BitBucket</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-testing" role="tabpanel"
+                                aria-labelledby="v-pills-testing-tab" tabindex="0">
+
+                                <div class="d-flex flex-row flex-wrap gap-5">
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/post-man.png"
+                                                alt="postman icon"></div>
+                                        <div> <span class="technologies-text">Postman</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-3">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/phpunit.png"
+                                                alt="phpunit icon"></div>
+                                        <div> <span class="technologies-text ">PHP Unit</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-3">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/amazon.png"
+                                                alt="amazon icon"></div>
+                                        <div> <span class="technologies-text">Amazon</span></div>
+                                    </div>
+                                    <div class="glaviso-ellpise gap-2">
+                                        <div><img src=" https://glaviso.com/glaviso/assets/images/Insomnia.png"
+                                                alt="Insomnia icon"></div>
+                                        <div> <span class="technologies-text">Insomnia</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our-exicution -->
+    <div class="waving-line position-relative pt-8">
+        <img src="assets/images/left-vector.png" alt="" class="left-vector">
+        <div class="paddin-32">
+            <div class="glaviso-container">
+
+
+                <div class="d-flex flex-row align-items-center gap-3 mb-lg-0 mb-2">
+                    <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1.67468 6.82735L11.5 1.1547L21.3253 6.82735V18.1726L11.5 23.8453L1.67468 18.1726V6.82735Z"
+                            fill="white" stroke="#214BDB" stroke-width="2"></path>
+                    </svg>
+                    <h3 class="font-26 mb-0 text-primar-100 z-1">
+                        OUR EXECUTION PROCESS
+                    </h3>
+                </div>
+                <h1 class="font-50 my-lg-3 my-2 text-primar-100 z-1">
+                    Way we work like
+                </h1>
+            </div>
+        </div>
+    </div>
+    <section class="our-exicution  position-relative">
+        <div class="paddin-32">
+            <div class="glaviso-container">
+                <div class="row">
+                    <div class="col-12 col-lg-4 mt-5">
+                        <div class="exicuton-box ">
+                            <div class="glaviso-badges">
+                                <svg width="74" height="74" viewBox="0 0 74 74" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="74" height="74" rx="37" fill="#E9EDFC"></rect>
+                                    <path opacity="0.5"
+                                        d="M21.25 33.5C21.25 26.9003 21.25 23.6005 23.3002 21.5502C25.3505 19.5 28.6503 19.5 35.25 19.5H38.75C45.3496 19.5 48.6496 19.5 50.6997 21.5502C52.75 23.6005 52.75 26.9003 52.75 33.5V40.5C52.75 47.0996 52.75 50.3996 50.6997 52.4497C48.6496 54.5 45.3496 54.5 38.75 54.5H35.25C28.6503 54.5 25.3505 54.5 23.3002 52.4497C21.25 50.3996 21.25 47.0996 21.25 40.5V33.5Z"
+                                        fill="#214BDB"></path>
+                                    <path
+                                        d="M44.9081 44.8774C45.2144 44.6385 45.4921 44.3608 46.0477 43.8051L52.9732 36.8797C53.1405 36.7124 53.0638 36.424 52.8402 36.3463C52.0227 36.0628 50.9593 35.5303 49.9646 34.5356C48.9699 33.5409 48.4373 32.4774 48.1538 31.66C48.0761 31.4363 47.7877 31.3596 47.6204 31.527L40.695 38.4524C40.1394 39.008 39.8616 39.2858 39.6228 39.592C39.341 39.9534 39.0993 40.3442 38.9023 40.7579C38.7352 41.1084 38.6109 41.4811 38.3626 42.2265L38.0415 43.1895L37.531 44.7207L37.0524 46.1566C36.9302 46.5234 37.0256 46.9277 37.2989 47.2012C37.5725 47.4745 37.9767 47.5699 38.3435 47.4478L39.7794 46.9691L41.3106 46.4587L42.2737 46.1375C43.0188 45.8892 43.3917 45.765 43.7423 45.5978C44.156 45.4008 44.5467 45.1591 44.9081 44.8774Z"
+                                        fill="#023047" fill-opacity="0.8"></path>
+                                    <path
+                                        d="M55.1413 34.7113C56.6195 33.2332 56.6195 30.8367 55.1413 29.3586C53.6632 27.8805 51.2668 27.8805 49.7886 29.3586L49.566 29.5812C49.3511 29.7961 49.2538 30.0962 49.3075 30.3953C49.3413 30.5834 49.4037 30.8584 49.5177 31.1866C49.7453 31.843 50.1753 32.7046 50.9854 33.5145C51.7953 34.3246 52.657 34.7546 53.3132 34.9823C53.6415 35.0962 53.9165 35.1587 54.1046 35.1924C54.4037 35.2462 54.7038 35.1488 54.9187 34.9339L55.1413 34.7113Z"
+                                        fill="#023047" fill-opacity="0.8"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M28.6875 31.75C28.6875 31.0251 29.2751 30.4375 30 30.4375H41.375C42.0998 30.4375 42.6875 31.0251 42.6875 31.75C42.6875 32.4749 42.0998 33.0625 41.375 33.0625H30C29.2751 33.0625 28.6875 32.4749 28.6875 31.75ZM28.6875 38.75C28.6875 38.0251 29.2751 37.4375 30 37.4375H35.25C35.9749 37.4375 36.5625 38.0251 36.5625 38.75C36.5625 39.4748 35.9749 40.0625 35.25 40.0625H30C29.2751 40.0625 28.6875 39.4748 28.6875 38.75ZM28.6875 45.75C28.6875 45.0252 29.2751 44.4375 30 44.4375H32.625C33.3499 44.4375 33.9375 45.0252 33.9375 45.75C33.9375 46.4748 33.3499 47.0625 32.625 47.0625H30C29.2751 47.0625 28.6875 46.4748 28.6875 45.75Z"
+                                        fill="#023047" fill-opacity="0.8"></path>
+                                </svg>
+
+                            </div>
+                            <div class="d-flex flex-column gap-2">
+                                <h3 class="font-18 text-primar-100 m-0">Concept &amp; Strategy</h3>
+                                <p class="font-16 text-primary-clour-70 m-0">We work with you to develop a strategy for
+                                    your app, ensuring it aligns with your overall business objectives.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 mt-5">
+                        <div class="exicuton-box ">
+                            <div class="glaviso-badges">
+                                <svg width="74" height="74" viewBox="0 0 74 74" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="74" height="74" rx="37" fill="#E9EDFC"></rect>
+                                    <path opacity="0.5"
+                                        d="M20 37.5C20 29.2504 20 25.1256 22.5628 22.5628C25.1256 20 29.2504 20 37.5 20C45.7495 20 49.8744 20 52.4371 22.5628C55 25.1256 55 29.2504 55 37.5C55 45.7495 55 49.8744 52.4371 52.4371C49.8744 55 45.7495 55 37.5 55C29.2504 55 25.1256 55 22.5628 52.4371C20 49.8744 20 45.7495 20 37.5Z"
+                                        fill="#214BDB"></path>
+                                    <path
+                                        d="M40.1038 27.7804C40.804 27.968 41.2194 28.6877 41.0318 29.3879L36.5025 46.2915C36.3149 46.9917 35.5951 47.4073 34.8949 47.2197C34.1948 47.032 33.7793 46.3124 33.9669 45.6122L38.4963 28.7085C38.6839 28.0083 39.4036 27.5928 40.1038 27.7804Z"
+                                        fill="#023047" fill-opacity="0.8"></path>
+                                    <path
+                                        d="M42.6969 31.3222C43.2095 30.8096 44.0404 30.8096 44.553 31.3222L44.9177 31.6868C46.0295 32.7985 46.9566 33.7256 47.5936 34.5606C48.2661 35.4419 48.7378 36.3731 48.7378 37.5002C48.7378 38.6274 48.2661 39.5586 47.5936 40.4399C46.9566 41.2748 46.0295 42.202 44.9177 43.3137L44.553 43.6783C44.0404 44.1908 43.2095 44.1908 42.6969 43.6783C42.1844 43.1657 42.1844 42.3348 42.6969 41.8222L42.9971 41.5219C44.19 40.3289 44.9894 39.5257 45.5067 38.8476C46.0009 38.1999 46.1128 37.8228 46.1128 37.5002C46.1128 37.1777 46.0009 36.8006 45.5067 36.1529C44.9894 35.4748 44.19 34.6715 42.9971 33.4786L42.6969 33.1783C42.1844 32.6658 42.1844 31.8347 42.6969 31.3222Z"
+                                        fill="#023047" fill-opacity="0.8"></path>
+                                    <path
+                                        d="M30.4464 31.3222C30.959 30.8096 31.79 30.8096 32.3026 31.3222C32.8151 31.8347 32.8151 32.6658 32.3026 33.1783L32.0023 33.4786C30.8094 34.6715 30.0101 35.4748 29.4927 36.1529C28.9984 36.8006 28.8867 37.1777 28.8867 37.5002C28.8867 37.8228 28.9984 38.1999 29.4927 38.8476C30.0101 39.5257 30.8094 40.3289 32.0023 41.5219L32.3026 41.8222C32.8151 42.3348 32.8151 43.1657 32.3026 43.6783C31.79 44.1908 30.959 44.1908 30.4464 43.6783L30.0818 43.3137C28.9699 42.202 28.0428 41.2748 27.4058 40.4399C26.7333 39.5586 26.2617 38.6274 26.2617 37.5002C26.2617 36.3731 26.7333 35.4419 27.4058 34.5606C28.0428 33.7256 28.9699 32.7985 30.0818 31.6868L30.4464 31.3222Z"
+                                        fill="#023047" fill-opacity="0.8"></path>
+                                </svg>
+
+
+                            </div>
+                            <div class="d-flex flex-column gap-2">
+                                <h3 class="font-18 text-primar-100 m-0">Development</h3>
+                                <p class="font-16 text-primary-clour-70 m-0">Programming and coding based totally on the
+                                    designs permitted with the aid of you takes region in this stage.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 mt-5">
+                        <div class="exicuton-box ">
+                            <div class="glaviso-badges">
+                                <svg width="74" height="74" viewBox="0 0 74 74" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="74" height="74" rx="37" fill="#E9EDFC"></rect>
+                                    <path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M37.5002 22.4418C45.8166 22.4418 52.5585 29.1834 52.5585 37.4996C52.5585 38.1739 53.1051 38.7205 53.7794 38.7205C54.4537 38.7205 55.0003 38.1739 55.0003 37.4996C55.0003 27.8348 47.1653 20 37.5002 20C36.826 20 36.2793 20.5466 36.2793 21.2209C36.2793 21.8952 36.826 22.4418 37.5002 22.4418Z"
+                                        fill="#214BDB"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M37.5002 31.395C38.1745 31.395 38.7212 31.9416 38.7212 32.6159V37.9065H44.0119C44.6862 37.9065 45.2328 38.4531 45.2328 39.1274C45.2328 39.8017 44.6862 40.3483 44.0119 40.3483H37.5002C36.826 40.3483 36.2793 39.8017 36.2793 39.1274V32.6159C36.2793 31.9416 36.826 31.395 37.5002 31.395Z"
+                                        fill="#023047" fill-opacity="0.9"></path>
+                                    <path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M32.7785 21.869C33.0213 22.498 32.7082 23.2048 32.0791 23.4476C31.8489 23.5365 31.6214 23.6309 31.3967 23.7306C30.7804 24.0042 30.059 23.7264 29.7854 23.1101C29.5118 22.4938 29.7896 21.7724 30.4059 21.4988C30.6672 21.3829 30.9319 21.2731 31.1998 21.1696C31.8288 20.9268 32.5356 21.2399 32.7785 21.869ZM27.1591 24.8687C27.6241 25.3569 27.6053 26.1298 27.117 26.5948C26.9384 26.7648 26.7641 26.9392 26.5941 27.1177C26.129 27.606 25.3562 27.6248 24.8679 27.1598C24.3796 26.6948 24.3608 25.922 24.8258 25.4337C25.0232 25.2264 25.2256 25.024 25.4329 24.8266C25.9212 24.3615 26.6941 24.3804 27.1591 24.8687ZM23.1093 29.786C23.7256 30.0596 24.0034 30.781 23.7298 31.3973C23.6301 31.6219 23.5357 31.8494 23.4468 32.0797C23.204 32.7087 22.4972 33.0218 21.8681 32.779C21.239 32.5362 20.9259 31.8294 21.1688 31.2003C21.2722 30.9325 21.382 30.6678 21.498 30.4065C21.7716 29.7902 22.493 29.5124 23.1093 29.786ZM21.2553 35.8793C21.9294 35.8955 22.4626 36.4552 22.4464 37.1293C22.4434 37.2527 22.4419 37.3764 22.4419 37.5004C22.4419 37.6247 22.4434 37.7484 22.4464 37.8718C22.4626 38.5459 21.9294 39.1055 21.2553 39.1218C20.5812 39.1381 20.0215 38.6048 20.0052 37.9307C20.0017 37.7878 20 37.6443 20 37.5004C20 37.3567 20.0017 37.2133 20.0052 37.0704C20.0215 36.3963 20.5812 35.863 21.2553 35.8793ZM53.1322 42.2221C53.7612 42.4648 54.0743 43.1716 53.8314 43.8006C53.728 44.0686 53.6183 44.3333 53.5022 44.5945C53.2287 45.2108 52.5072 45.4886 51.8909 45.2149C51.2746 44.9414 50.9969 44.22 51.2705 43.6037C51.3701 43.379 51.4646 43.1516 51.5534 42.9214C51.7963 42.2922 52.503 41.9792 53.1322 42.2221ZM21.8681 42.2221C22.4972 41.9792 23.204 42.2922 23.4468 42.9214C23.5357 43.1516 23.6301 43.379 23.7298 43.6037C24.0034 44.22 23.7256 44.9414 23.1093 45.2149C22.493 45.4886 21.7716 45.2108 21.498 44.5945C21.382 44.3333 21.2722 44.0686 21.1688 43.8006C20.9259 43.1716 21.239 42.4648 21.8681 42.2221ZM50.1323 47.8412C50.6206 48.3062 50.6395 49.079 50.1744 49.5674C49.977 49.7746 49.7746 49.9771 49.5672 50.1744C49.079 50.6395 48.3062 50.6206 47.8411 50.1324C47.376 49.644 47.3949 48.8713 47.8833 48.4062C48.0617 48.2362 48.2361 48.0619 48.4062 47.8833C48.8713 47.3951 49.6441 47.3762 50.1323 47.8412ZM24.8679 47.8412C25.3562 47.3762 26.129 47.3951 26.5941 47.8833C26.7641 48.0619 26.9384 48.2362 27.117 48.4062C27.6053 48.8713 27.6241 49.644 27.1591 50.1324C26.6941 50.6206 25.9212 50.6395 25.4329 50.1744C25.2257 49.9771 25.0232 49.7746 24.8258 49.5674C24.3608 49.079 24.3796 48.3062 24.8679 47.8412ZM29.7854 51.891C30.059 51.2747 30.7804 50.9968 31.3967 51.2704C31.6214 51.3702 31.8489 51.4645 32.0791 51.5534C32.7082 51.7962 33.0213 52.503 32.7785 53.1321C32.5356 53.7611 31.8288 54.0743 31.1998 53.8314C30.9319 53.728 30.6672 53.6181 30.4059 53.5022C29.7896 53.2286 29.5118 52.5073 29.7854 51.891ZM45.2148 51.891C45.4885 52.5073 45.2106 53.2286 44.5943 53.5022C44.333 53.6181 44.0683 53.728 43.8005 53.8314C43.1715 54.0743 42.4646 53.7611 42.2217 53.1321C41.979 52.503 42.2921 51.7962 42.9211 51.5534C43.1513 51.4645 43.3789 51.3702 43.6035 51.2704C44.2198 50.9968 44.9412 51.2747 45.2148 51.891ZM35.8787 53.7449C35.8952 53.0709 36.4548 52.5376 37.1288 52.5538C37.2522 52.5568 37.3759 52.5582 37.5001 52.5582C37.6243 52.5582 37.748 52.5568 37.8714 52.5538C38.5454 52.5376 39.1051 53.0709 39.1215 53.7449C39.1378 54.4189 38.6045 54.9785 37.9304 54.995C37.7873 54.9984 37.6439 55 37.5001 55C37.3564 55 37.2129 54.9984 37.0699 54.995C36.3957 54.9785 35.8624 54.4189 35.8787 53.7449Z"
+                                        fill="#214BDB"></path>
+                                </svg>
+                            </div>
+                            <div class="d-flex flex-column gap-2">
+                                <h3 class="font-18 text-primar-100 m-0">Support and Customer Service</h3>
+                                <p class="font-16 text-primary-clour-70 m-0">Your product or platform goes LIVE. If you
+                                    will give us approval then our developers publish your product.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row mt-60">
+                    <div class="col-12 col-lg-2"></div>
+                    <div class="col-12 col-lg-4 mt-5">
+                        <div class="exicuton-box ">
+                            <div class="glaviso-badges">
+                                <svg width="74" height="74" viewBox="0 0 74 74" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="74" height="74" rx="37" fill="#E9EDFC"></rect>
+                                    <path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M20.7337 20.7337C18 23.4673 18 27.8671 18 36.6666C18 45.4661 18 49.866 20.7337 52.5995C23.4673 55.3333 27.8671 55.3333 36.6666 55.3333C45.4661 55.3333 49.866 55.3333 52.5995 52.5995C55.3333 49.866 55.3333 45.4661 55.3333 36.6666C55.3333 27.8671 55.3333 23.4673 52.5995 20.7337C49.866 18 45.4661 18 36.6666 18C27.8671 18 23.4673 18 20.7337 20.7337Z"
+                                        fill="#214BDB"></path>
+                                    <path
+                                        d="M30.1409 38.8629C29.0507 37.7055 27.2309 37.6449 26.0659 38.727L24.553 40.1322C23.9864 40.6584 23.1006 40.6256 22.5744 40.059C22.0482 39.4925 22.0809 38.6068 22.6474 38.0806L24.1604 36.6753C26.4528 34.5462 30.0337 34.6657 32.179 36.943L37.121 42.1889C37.6379 42.7375 38.484 42.8114 39.0883 42.3606C41.3281 40.6898 44.4469 40.8796 46.4674 42.8099L50.7006 46.8542C51.2597 47.3883 51.2798 48.2746 50.7458 48.8337C50.2117 49.3927 49.3254 49.4129 48.7663 48.8788L44.5331 44.8345C43.5007 43.8482 41.9071 43.7511 40.7625 44.6049C39.0181 45.9064 36.5752 45.693 35.083 44.1088L30.1409 38.8629Z"
+                                        fill="#023047" fill-opacity="0.9"></path>
+                                    <path
+                                        d="M47.867 29.1999C47.867 31.2617 46.1956 32.9332 44.1337 32.9332C42.0718 32.9332 40.4004 31.2617 40.4004 29.1999C40.4004 27.138 42.0718 25.4666 44.1337 25.4666C46.1956 25.4666 47.867 27.138 47.867 29.1999Z"
+                                        fill="#023047" fill-opacity="0.9"></path>
+                                </svg>
+
+                            </div>
+                            <div class="d-flex flex-column gap-2">
+                                <h3 class="font-18 text-primar-100 m-0">Design &amp; UI/UX</h3>
+                                <p class="font-16 text-primary-clour-70 m-0">We understand your business, goals, and
+                                    priorities. These all brainstorming sessions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 mt-5">
+                        <div class="exicuton-box ">
+                            <div class="glaviso-badges">
+                                <svg width="74" height="74" viewBox="0 0 74 74" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="74" height="74" rx="37" fill="#E9EDFC"></rect>
+                                    <path opacity="0.7" fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M44.1708 40.6125L52.5535 32.2549C53.7609 31.0513 54.3645 30.4494 54.6824 29.6842C55.0004 28.9189 55.0004 28.0678 55.0004 26.3657V25.5525C55.0004 22.935 55.0004 21.6263 54.1847 20.8131C53.3692 20 52.0565 20 49.4312 20H48.6155C46.9082 20 46.0545 20 45.287 20.317C44.5193 20.634 43.9158 21.2358 42.7085 22.4394L34.3256 30.797C32.915 32.2034 32.0403 33.0755 31.7015 33.9178C31.5945 34.1839 31.541 34.4471 31.541 34.7233C31.541 35.8731 32.4692 36.7986 34.3256 38.6495L34.5751 38.8981L37.4978 35.9319C37.9146 35.5089 38.5955 35.5038 39.0185 35.9206C39.4415 36.3374 39.4466 37.0183 39.0298 37.4413L36.0981 40.4166L36.2946 40.6125C38.1511 42.4633 39.0793 43.3886 40.2326 43.3886C40.4876 43.3886 40.7315 43.3435 40.9766 43.2531C41.8416 42.9346 42.7245 42.0543 44.1708 40.6125ZM48.109 30.7976C47.0215 31.8818 45.2583 31.8818 44.171 30.7976C43.0835 29.7134 43.0835 27.9556 44.171 26.8714C45.2583 25.7873 47.0215 25.7873 48.109 26.8714C49.1965 27.9556 49.1965 29.7134 48.109 30.7976Z"
+                                        fill="#214BDB"></path>
+                                    <path opacity="0.7" fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M22.9568 37.469C23.4506 37.9633 23.4501 38.7643 22.9557 39.258L22.6963 39.5172C22.4747 39.7385 22.4747 40.0967 22.6963 40.318C22.9188 40.5402 23.28 40.5402 23.5025 40.318L26.356 37.4678C26.8504 36.9741 27.6514 36.9746 28.1451 37.469C28.6388 37.9633 28.6383 38.7643 28.144 39.258L25.2905 42.108C24.0802 43.3169 22.1186 43.3169 20.9083 42.108C19.6972 40.8985 19.6972 38.9367 20.9083 37.727L21.1678 37.4678C21.6621 36.9741 22.4631 36.9746 22.9568 37.469ZM30.4954 44.4934C30.9839 44.9929 30.975 45.7937 30.4755 46.2822L27.5918 49.1024C27.0923 49.5909 26.2914 49.5819 25.8029 49.0824C25.3144 48.5829 25.3233 47.7821 25.8228 47.2936L28.7064 44.4734C29.2059 43.9849 30.0069 43.9939 30.4954 44.4934ZM37.4686 46.8634C37.9624 47.3577 37.9619 48.1587 37.4676 48.6526L34.614 51.5026C34.3924 51.7239 34.3924 52.0821 34.614 52.3034C34.8364 52.5256 35.1978 52.5256 35.4201 52.3034L35.6796 52.0442C36.1739 51.5506 36.9749 51.5511 37.4686 52.0454C37.9624 52.5397 37.9619 53.3408 37.4676 53.8344L37.2081 54.0936C35.9979 55.3023 34.0363 55.3023 32.826 54.0936C31.6149 52.8839 31.6149 50.9221 32.826 49.7124L35.6796 46.8624C36.1739 46.3685 36.9749 46.369 37.4686 46.8634Z"
+                                        fill="#214BDB"></path>
+                                    <path
+                                        d="M36.4105 25.6822L32.7643 29.3175C32.0941 29.9856 31.4793 30.5985 30.9938 31.1526C30.682 31.5084 30.3704 31.8979 30.1065 32.3282L30.071 32.2928C30.0035 32.2255 29.9698 32.1919 29.9359 32.159C29.3021 31.5441 28.5567 31.0552 27.7394 30.7185C27.6957 30.7005 27.6514 30.6829 27.5627 30.6478L27.0198 30.4327C26.2844 30.1413 26.0884 29.1945 26.648 28.6366C28.2541 27.0354 30.1824 25.1129 31.113 24.7268C31.9338 24.3863 32.8204 24.273 33.6755 24.3993C34.4589 24.5151 35.2 24.9175 36.4105 25.6822Z"
+                                        fill="#023047" fill-opacity="0.9"></path>
+                                    <path
+                                        d="M42.6367 44.8226C42.9306 45.1208 43.1256 45.3315 43.3021 45.5565C43.5347 45.8535 43.7429 46.169 43.9244 46.4996C44.1286 46.872 44.2871 47.2696 44.6042 48.0652C44.8622 48.7127 45.7199 48.8838 46.2179 48.3873L46.3384 48.2672C47.9444 46.6658 49.8728 44.7433 50.2601 43.8155C50.6016 42.9973 50.7153 42.1133 50.5884 41.2608C50.4724 40.4798 50.0688 39.7409 49.3019 38.5344L45.6436 42.1818C44.9582 42.8651 44.3297 43.4918 43.7614 43.9826C43.4207 44.2768 43.0481 44.5708 42.6367 44.8226Z"
+                                        fill="#023047" fill-opacity="0.9"></path>
+                                    <path
+                                        d="M31.1434 40.9388C31.6374 40.4448 31.6374 39.6438 31.1434 39.1498C30.6494 38.6558 29.8484 38.6558 29.3543 39.1498L25.7836 42.7205C25.2896 43.2145 25.2896 44.0155 25.7836 44.5095C26.2777 45.0035 27.0787 45.0035 27.5727 44.5095L31.1434 40.9388Z"
+                                        fill="#023047" fill-opacity="0.9"></path>
+                                    <path
+                                        d="M35.8251 45.6148C36.3191 45.1208 36.3191 44.3198 35.8251 43.8258C35.3309 43.3318 34.53 43.3318 34.036 43.8258L30.4897 47.372C29.9956 47.8662 29.9956 48.667 30.4897 49.1612C30.9837 49.6552 31.7847 49.6552 32.2788 49.1612L35.8251 45.6148Z"
+                                        fill="#023047" fill-opacity="0.9"></path>
+                                </svg>
+
+
+                            </div>
+                            <div class="d-flex flex-column gap-2">
+                                <h3 class="font-18 text-primar-100 m-0">Launch and Maintenance</h3>
+                                <p class="font-16 text-primary-clour-70 m-0">Your product or platform goes LIVE. If you
+                                    will give us approval then our Digital Transformation Company developers publish
+                                    your product.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="custom-testimonails pb-5-cusotm">
+        <div class="paddin-32">
+            <div class="glaviso-container">
+                <div class="d-flex flex-row align-items-center gap-3 mb-lg-0 mb-2 pt-10">
+                    <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1.67468 6.82735L11.5 1.1547L21.3253 6.82735V18.1726L11.5 23.8453L1.67468 18.1726V6.82735Z"
+                            fill="white" stroke="#214BDB" stroke-width="2" />
+                    </svg>
+                    <h3 class="font-26 mb-0 text-primar-100 z-1">
+                        OTHER CASE STUDIES
+                    </h3>
+                </div>
+                <h1 class="font-50 my-lg-3 my-2 text-primar-100 z-1">
+                    Our Other Project<br>
+                    And Case Studies
+                </h1>
+                <div class="row mt-6">
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <div class="show-case-small">
+                            <img src="assets/images/other-projects.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <div class="show-case-small">
+                            <img src="assets/images/other-projects.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <div class="show-case-small">
+                            <img src="assets/images/other-projects.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- get-intouch -->
+    <section class="get-intouch mt-5 pt-5 pb-md-5">
+        <div class="paddin-32">
+            <div class="glaviso-container">
+                <div class="row">
+                    <div class="col-12 col-lg-5 mb-4">
+                        <div class="banner-text">
+                            <h1 class="font-50 text-white mb-2">Get in touch</h1>
+                            <p class="font-18 text-white m-0">Have a project in mind? No need to be shy, drop us a note
+                                and tell us how we can help realise your vision.</p>
+                        </div>
+                        <img src="assets/images/get-intouch.png" alt="" class="img-fluid mt-md-5 mt-3 animated">
+                    </div>
+                    <div class="col-12 col-lg-6 offset-lg-1">
+                        <form action="" class="get-touch-form">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="mb-2">
+                                        <label class="form-label banner text-primar-100">Full Name</label>
+                                        <input type="text" class="form-control" placeholder="e.g. John Smith...">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-2">
+                                        <label class="form-label banner text-primar-100">E-Mail</label>
+                                        <input type="email" class="form-control"
+                                            placeholder="e.g. johnsmith@gmail.com...">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-2">
+                                        <label class="form-label banner text-primar-100">Company</label>
+                                        <input type="text" class="form-control" placeholder="e.g. My Company...">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-2">
+                                        <label class="form-label banner text-primar-100">TELL US ABOUT YOUR
+                                            PROJECT</label>
+                                        <textarea class="form-control" placeholder="Message..." rows="4"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="flexCheckDefaulttwo">
+                                        <label class="form-check-label banner text-primar-100 ps-1"
+                                            for="flexCheckDefaulttwo">
+                                            I confirm that I have read and agree to the Terms of Use on this website.
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn-contain mt-3 border-0 w-100">
+                                        BOOK A FREE CALL
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="paddin-32">
+            <div class="glaviso-container">
+                <div class="row">
+                    <div class="col-6 col-md-4 col-lg-3 mb-3 order-lg-0 order-1 text-lg-start text-end">
+                        <h2 class="font-24 text-primar-100 mb-3">Company</h2>
+                        <ul class="list-unstyled p-0 m-0 footer-links">
+                            <li><a href="#">Why Glaviso?</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Hire Us</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">Make Payment</a></li>
+                            <li><a href="#">Press Release</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 mb-3 order-lg-1 order-2">
+                        <h2 class="font-24 text-primar-100 mb-3">Services</h2>
+                        <ul class="list-unstyled p-0 m-0 footer-links">
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Mobile App Development</a></li>
+                            <li><a href="#">Web/Graphic Designing</a></li>
+                            <li><a href="#">Search Engine Optimization</a></li>
+                            <li><a href="#">Desktop App Development</a></li>
+                            <li><a href="#">Digital Marketing</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 mb-3 order-lg-3 order-3 text-lg-start text-end">
+                        <h2 class="font-24 text-primar-100 mb-3">Hire Resources</h2>
+                        <ul class="list-unstyled p-0 m-0 footer-links">
+                            <li><a href="#">.Net Developer</a></li>
+                            <li><a href="#">Mobile Develper</a></li>
+                            <li><a href="#">PHP Developer</a></li>
+                            <li><a href="#">Frontend Developer</a></li>
+                            <li><a href="#">Web & Graphic Designer</a></li>
+                            <li><a href="#">Technical Resource Outsourcing</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 mb-3 order-lg-4 order-0">
+                        <img src="assets/images/Glaviso-logo.png" alt="footer-logo" class="mb-3 d-block footer-logo">
+                        <ul class="list-unstyled p-0 m-0 footer-links d-flex flex-column gap-lg-4 gap-2">
+                            <li>
+                                <p class="font-16 light text-primar-100 m-0">Address:</p>
+                                <h2 class="font-16 dark text-primar-100 m-0">62-C Gulberg-III, LHR.</h2>
+                            </li>
+                            <li>
+                                <p class="font-16 light text-primar-100 m-0">For Business Inquiries:</p>
+                                <h2 class="font-16 dark text-primar-100 m-0">info@glaviso.com</h2>
+                            </li>
+                            <li>
+                                <h3 class="font-16 dark-bold text-primar-100 m-0">Subscribe to Our Newsletter</h3>
+                            </li>
+                            <li>
+                                <div class="mb-2">
+                                    <input type="text" class="form-control" placeholder="Enter your Email">
+                                    <button type="submit" class="frm-submit-btn mt-4">
+                                        <span> Submit <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M1.39106 9.70139C5.89437 7.97382 18.8745 2.6582 18.8745 2.6582L16.2917 17.6748C16.1593 18.4057 15.2983 18.6715 14.7685 18.2064L10.7288 14.8177L7.88113 17.4755L8.34471 13.0237L16.954 4.85089L6.35795 11.4954L7.0202 15.2828L4.83477 11.7612L1.52351 10.6981C0.993712 10.4987 0.927487 9.83428 1.39106 9.70139Z"
+                                                    stroke="#214BDB" stroke-width="1.25" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="social-container">
+                    <svg width="100%" height="6" viewBox="0 0 980 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.5"
+                            d="M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333333 0.333333 1.52724 0.333333 3ZM974.333 3.00008C974.333 4.47284 975.527 5.66675 977 5.66675C978.473 5.66675 979.667 4.47284 979.667 3.00009C979.667 1.52733 978.473 0.333419 977 0.333418C975.527 0.333418 974.333 1.52733 974.333 3.00008ZM3 3.5L977 3.50009L977 2.50009L3 2.5L3 3.5Z"
+                            fill="#214BDB" />
+                    </svg>
+                    <div class="d-flex flex-row justify-content-between gap-lg-3 gap-2 flex-wrap">
+                        <h3 class="font-10">Copyrights © 2022, Glaviso. All Rights Reserved</h3>
+                        <h3 class="font-10">Privacy Policy</h3>
+                        <ul class="d-flex flex-row gap-2 list-unstyled">
+                            <li>
+                                <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20.25 0H3.75C1.67893 0 0 1.67893 0 3.75V20.25C0 22.3211 1.67893 24 3.75 24H20.25C22.3211 24 24 22.3211 24 20.25V3.75C24 1.67893 22.3211 0 20.25 0Z"
+                                            fill="#1877F2" />
+                                        <path
+                                            d="M18 12C18 8.7 15.3 6 12 6C8.7 6 6 8.7 6 12C6 15 8.175 17.475 11.025 17.925V13.725H9.525V12H11.025V10.65C11.025 9.15 11.925 8.325 13.275 8.325C13.95 8.325 14.625 8.475 14.625 8.475V9.975H13.875C13.125 9.975 12.9 10.425 12.9 10.875V12H14.55L14.25 13.725H12.825V18C15.825 17.55 18 15 18 12Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20.25 0H3.75C1.67893 0 0 1.67893 0 3.75V20.25C0 22.3211 1.67893 24 3.75 24H20.25C22.3211 24 24 22.3211 24 20.25V3.75C24 1.67893 22.3211 0 20.25 0Z"
+                                            fill="#1DA1F2" />
+                                        <path
+                                            d="M18 8.25C17.55 8.475 17.1 8.55 16.575 8.625C17.1 8.325 17.475 7.875 17.625 7.275C17.175 7.575 16.65 7.725 16.05 7.875C15.6 7.425 14.925 7.125 14.25 7.125C12.675 7.125 11.475 8.625 11.85 10.125C9.825 10.05 8.025 9.075 6.75 7.575C6.075 8.7 6.45 10.125 7.5 10.875C7.125 10.875 6.75 10.725 6.375 10.575C6.375 11.7 7.2 12.75 8.325 13.05C7.95 13.125 7.575 13.2 7.2 13.125C7.5 14.1 8.4 14.85 9.525 14.85C8.625 15.525 7.275 15.9 6 15.75C7.125 16.425 8.4 16.875 9.75 16.875C14.325 16.875 16.875 13.05 16.725 9.525C17.25 9.225 17.7 8.775 18 8.25Z"
+                                            fill="white" />
+                                    </svg>
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20.25 0H3.75C1.67893 0 0 1.67893 0 3.75V20.25C0 22.3211 1.67893 24 3.75 24H20.25C22.3211 24 24 22.3211 24 20.25V3.75C24 1.67893 22.3211 0 20.25 0Z"
+                                            fill="#2867B2" />
+                                        <path
+                                            d="M8.7 18H6.15V9.975H8.7V18ZM7.425 8.85C6.6 8.85 6 8.25 6 7.425C6 6.6 6.675 6 7.425 6C8.25 6 8.85 6.6 8.85 7.425C8.85 8.25 8.25 8.85 7.425 8.85ZM18 18H15.45V13.65C15.45 12.375 14.925 12 14.175 12C13.425 12 12.675 12.6 12.675 13.725V18H10.125V9.975H12.525V11.1C12.75 10.575 13.65 9.75 14.925 9.75C16.35 9.75 17.85 10.575 17.85 13.05V18H18Z"
+                                            fill="white" />
+                                    </svg>
+
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20.25 0H3.75C1.67893 0 0 1.67893 0 3.75V20.25C0 22.3211 1.67893 24 3.75 24H20.25C22.3211 24 24 22.3211 24 20.25V3.75C24 1.67893 22.3211 0 20.25 0Z"
+                                            fill="#F00073" />
+                                        <path
+                                            d="M12.0004 6.90039C13.6504 6.90039 13.8754 6.90039 14.5504 6.90039C15.1504 6.90039 15.4504 7.05039 15.6754 7.12539C15.9754 7.27539 16.2004 7.35039 16.4254 7.57539C16.6504 7.80039 16.8004 8.02539 16.8754 8.32539C16.9504 8.55039 17.0254 8.85039 17.1004 9.45039C17.1004 10.1254 17.1004 10.2754 17.1004 12.0004C17.1004 13.7254 17.1004 13.8754 17.1004 14.5504C17.1004 15.1504 16.9504 15.4504 16.8754 15.6754C16.7254 15.9754 16.6504 16.2004 16.4254 16.4254C16.2004 16.6504 15.9754 16.8004 15.6754 16.8754C15.4504 16.9504 15.1504 17.0254 14.5504 17.1004C13.8754 17.1004 13.7254 17.1004 12.0004 17.1004C10.2754 17.1004 10.1254 17.1004 9.45039 17.1004C8.85039 17.1004 8.55039 16.9504 8.32539 16.8754C8.02539 16.7254 7.80039 16.6504 7.57539 16.4254C7.35039 16.2004 7.20039 15.9754 7.12539 15.6754C7.05039 15.4504 6.97539 15.1504 6.90039 14.5504C6.90039 13.8754 6.90039 13.7254 6.90039 12.0004C6.90039 10.2754 6.90039 10.1254 6.90039 9.45039C6.90039 8.85039 7.05039 8.55039 7.12539 8.32539C7.27539 8.02539 7.35039 7.80039 7.57539 7.57539C7.80039 7.35039 8.02539 7.20039 8.32539 7.12539C8.55039 7.05039 8.85039 6.97539 9.45039 6.90039C10.1254 6.90039 10.3504 6.90039 12.0004 6.90039ZM12.0004 5.77539C10.2754 5.77539 10.1254 5.77539 9.45039 5.77539C8.77539 5.77539 8.32539 5.92539 7.95039 6.07539C7.57539 6.22539 7.20039 6.45039 6.82539 6.82539C6.45039 7.20039 6.30039 7.50039 6.07539 7.95039C5.92539 8.32539 5.85039 8.77539 5.77539 9.45039C5.77539 10.1254 5.77539 10.3504 5.77539 12.0004C5.77539 13.7254 5.77539 13.8754 5.77539 14.5504C5.77539 15.2254 5.92539 15.6754 6.07539 16.0504C6.22539 16.4254 6.45039 16.8004 6.82539 17.1754C7.20039 17.5504 7.50039 17.7004 7.95039 17.9254C8.32539 18.0754 8.77539 18.1504 9.45039 18.2254C10.1254 18.2254 10.3504 18.2254 12.0004 18.2254C13.6504 18.2254 13.8754 18.2254 14.5504 18.2254C15.2254 18.2254 15.6754 18.0754 16.0504 17.9254C16.4254 17.7754 16.8004 17.5504 17.1754 17.1754C17.5504 16.8004 17.7004 16.5004 17.9254 16.0504C18.0754 15.6754 18.1504 15.2254 18.2254 14.5504C18.2254 13.8754 18.2254 13.6504 18.2254 12.0004C18.2254 10.3504 18.2254 10.1254 18.2254 9.45039C18.2254 8.77539 18.0754 8.32539 17.9254 7.95039C17.7754 7.57539 17.5504 7.20039 17.1754 6.82539C16.8004 6.45039 16.5004 6.30039 16.0504 6.07539C15.6754 5.92539 15.2254 5.85039 14.5504 5.77539C13.8754 5.77539 13.7254 5.77539 12.0004 5.77539Z"
+                                            fill="white" />
+                                        <path
+                                            d="M12.0004 8.77539C10.2004 8.77539 8.77539 10.2004 8.77539 12.0004C8.77539 13.8004 10.2004 15.2254 12.0004 15.2254C13.8004 15.2254 15.2254 13.8004 15.2254 12.0004C15.2254 10.2004 13.8004 8.77539 12.0004 8.77539ZM12.0004 14.1004C10.8754 14.1004 9.90039 13.2004 9.90039 12.0004C9.90039 10.8754 10.8004 9.90039 12.0004 9.90039C13.1254 9.90039 14.1004 10.8004 14.1004 12.0004C14.1004 13.1254 13.1254 14.1004 12.0004 14.1004Z"
+                                            fill="white" />
+                                        <path
+                                            d="M15.3004 9.45039C15.7146 9.45039 16.0504 9.1146 16.0504 8.70039C16.0504 8.28618 15.7146 7.95039 15.3004 7.95039C14.8862 7.95039 14.5504 8.28618 14.5504 8.70039C14.5504 9.1146 14.8862 9.45039 15.3004 9.45039Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20.25 0H3.75C1.67893 0 0 1.67893 0 3.75V20.25C0 22.3211 1.67893 24 3.75 24H20.25C22.3211 24 24 22.3211 24 20.25V3.75C24 1.67893 22.3211 0 20.25 0Z"
+                                            fill="#E60023" />
+                                        <path
+                                            d="M12 6C8.7 6 6 8.7 6 12C6 14.475 7.5 16.575 9.6 17.475C9.6 17.025 9.6 16.575 9.675 16.125C9.825 15.6 10.425 12.825 10.425 12.825C10.425 12.825 10.2 12.45 10.2 11.85C10.2 10.95 10.725 10.275 11.325 10.275C11.85 10.275 12.15 10.65 12.15 11.175C12.15 11.7 11.775 12.525 11.625 13.275C11.475 13.875 11.925 14.4 12.6 14.4C13.725 14.4 14.475 12.975 14.475 11.175C14.475 9.825 13.575 8.85 12 8.85C10.2 8.85 9.075 10.2 9.075 11.7C9.075 12.225 9.225 12.6 9.45 12.9C9.525 13.05 9.6 13.05 9.525 13.2C9.525 13.275 9.45 13.575 9.375 13.65C9.3 13.8 9.225 13.875 9.075 13.8C8.25 13.425 7.875 12.525 7.875 11.475C7.875 9.75 9.3 7.725 12.15 7.725C14.475 7.725 15.975 9.375 15.975 11.175C15.975 13.5 14.7 15.3 12.75 15.3C12.075 15.3 11.475 14.925 11.25 14.55C11.25 14.55 10.875 15.9 10.8 16.2C10.65 16.65 10.425 17.1 10.2 17.475C10.725 17.625 11.325 17.7 11.925 17.7C15.225 17.7 17.925 15 17.925 11.7C18 8.7 15.3 6 12 6Z"
+                                            fill="white" />
+                                    </svg>
+
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="assets/js/tweenlite.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/tilt.jquery.min.js"></script>
+</body>
+
+</html>
