@@ -124,7 +124,7 @@ ul li.font-18.text-primar-100.ps-3 {
 }
 
 .font-10 {
-  color: #023047;
+  color: #F1F8FF;
   font-size: 10px;
   font-style: normal;
   font-weight: 400;
@@ -315,7 +315,7 @@ a {
 }
 
 .font-16.dark.text-primar-100.m-0 {
-  color: #023047;
+  color: #F1F8FF;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -1035,7 +1035,7 @@ textarea {
 
 /* footer */
 .footer-links li a {
-  color: #023047;
+  color: #F1F8FF;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -1067,6 +1067,22 @@ textarea {
   color: #214BDB;
 }
 
+.footer-box {
+  border-radius: 16px;
+  box-shadow: -6px -6px 16px 0px rgba(33, 75, 219, 0.06) inset, 0px 10px 21px 0px rgba(0, 0, 0, 0.06), 6px 6px 16px 0px rgba(33, 75, 219, 0.06) inset;
+  padding: 30px 20px 20px 20px;
+  background: url("/assets/images/footer vector.png") top right/contain no-repeat, #F1F8FF;
+  height: 100%;
+}
+
+.footer-box > div h4 {
+  width: 120px;
+}
+
+.footer-headings {
+  color: #F1F8FF;
+}
+
 .font-16.light {
   font-weight: 300;
 }
@@ -1086,7 +1102,7 @@ textarea {
 }
 
 .frm-submit-btn {
-  border-radius: 5px;
+  border-radius: 12px;
   border: 1px solid #214BDB;
   /* Shadows/Tiny Shadow */
   box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.1);
@@ -1097,7 +1113,7 @@ textarea {
   font-weight: 500;
   line-height: 25px;
   letter-spacing: 0.06px;
-  background-color: white;
+  background-color: transparent;
 }
 
 .footer {
