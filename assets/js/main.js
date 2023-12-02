@@ -154,14 +154,37 @@ closeside_nav.addEventListener('click', () => {
     wrapper.style.overflowY = "auto";
 });
 // top nav
-window.onscroll = function () { scrollFunction() };
+// window.onscroll = function () {
+//      scrollFunction();
+     
+//     };
+
+// function scrollFunction() {
+//     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+//         document.querySelector(".glaviso-navbar").classList.add('activenav')
+//     } else {
+//         document.querySelector(".glaviso-navbar").classList.remove('activenav')
+//     }
+// }
+
+let prevScrollpos = window.scrollY;
+
+window.onscroll = function () {
+    scrollFunction();
+};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.querySelector(".glaviso-navbar").classList.add('activenav')
+    let currentScrollPos = window.scrollY;
+
+    if (prevScrollpos > currentScrollPos) {
+        // Scrolling up
+        document.querySelector(".glaviso-navbar").classList.remove('activenav');
     } else {
-        document.querySelector(".glaviso-navbar").classList.remove('activenav')
+        // Scrolling down
+        document.querySelector(".glaviso-navbar").classList.add('activenav');
     }
+
+    prevScrollpos = currentScrollPos;
 }
 
 
