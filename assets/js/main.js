@@ -243,5 +243,31 @@ function clearFileInput() {
     attach_file_one.style.display = "inline";
 }
 
+// Add this script to handle the click event on dropdown tabs
+document.addEventListener('DOMContentLoaded', function () {
+    var dropdownTabs = document.querySelectorAll('.glaviso-dropdown .nav-link');
+    
+    dropdownTabs.forEach(function (tab) {
+        tab.addEventListener('click', function (event) {
+            // Prevent the default behavior of the link
+            event.preventDefault();
+            // Stop the event from propagating up or down the DOM
+            event.stopPropagation();
+            // Manually toggle the 'show' class on the dropdown menu
+            var dropdownMenu = this.nextElementSibling;
+            dropdownMenu.classList.toggle('show');
+        });
+    });
+    
+    // Close the dropdown when clicking outside of it
+    document.addEventListener('click', function (event) {
+        var dropdowns = document.querySelectorAll('.glaviso-dropdown');
+        dropdowns.forEach(function (dropdown) {
+            if (!dropdown.contains(event.target)) {
+                dropdown.querySelector('.dropdown-menu').classList.remove('show');
+            }
+        });
+    });
+});
 
 

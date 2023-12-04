@@ -293,12 +293,36 @@ a {
     background: white url('../images/left-vector.png') no-repeat 100% 108%;
     background-size: contain;
     transition: 0.5s;
+    overflow: scroll;
 }
 
 .responsive_header.active {
     left: 0px;
 }
+.accordion-item {
+    background: transparent;
+}
+.accordion {
+    --bs-accordion-btn-bg: unset !important;
+}
+.services-link span {
+    color: $primaryColor90;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.07px;
+}
 
+.accordion-body {
+    padding: 0;
+}
+.services-accordion {
+    border-radius: 16px;
+    background: $skyColor;
+    box-shadow: -6px -6px 16px 0px rgba(33, 75, 219, 0.06) inset, 0px 10px 21px 0px rgba(0, 0, 0, 0.06), -6px -6px 16px 0px rgba(33, 75, 219, 0.06) inset;
+    padding: 16px;
+}
 #hamburger_menu {
     cursor: pointer;
 }
@@ -317,6 +341,9 @@ a {
     /* 138.889% */
     letter-spacing: 0.09px;
 
+}
+.dropdown-headings .accordion-button {
+    padding: 14px !important;
 }
 .font-16.text-primary-clour-70.weight-300.mb-3{
     color: $primaryColor100;
@@ -337,9 +364,11 @@ a {
     line-height: 25px;
     letter-spacing: 0.07px;
 }
-.responsive_header .accordion-item {
-    border-top: 1px solid rgba(2, 48, 71, 0.20) !important;
+a.side-nav-links:not(last-child) {
     border-bottom: 1px solid rgba(2, 48, 71, 0.20) !important;
+}
+.responsive_header .dropdown-heading-item {
+    border: 0 !important;
 }
 
 .responsive_header .accordion-button:not(.collapsed) {
@@ -347,6 +376,16 @@ a {
     background-color: transparent;
     box-shadow: none;
     color: $primaryColor70;
+}
+.responsive_header .dropdown-heading-item .accordion-button:not(.collapsed) {
+    background-color: $primaryColor;
+    color: $white;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.10);
+    margin-bottom: 20px;
+}
+.responsive_header .dropdown-heading-item .accordion-button:not(.collapsed) svg path {
+    stroke: $white;
 }
 
 .responsive_header .accordion-button:focus {
@@ -428,10 +467,8 @@ a {
 }
 
 .nav-item.dropdown.glaviso-dropdown svg {
-    min-width: 14px;
-    min-height: 14px;
-    max-width: 14px;
-    max-height: 14px;
+   width: 30px;
+   height: 30px;
 }
 
 @keyframes up-down {
@@ -1062,6 +1099,7 @@ textarea {
 }
 .footer-sec-heading {
     color: $primaryColor;
+    text-wrap: nowrap;
 }
 .dot {
     background: $primaryColor100;
@@ -1111,7 +1149,7 @@ textarea {
 
 .frm-submit-btn {
     border-radius: 12px;
-    border: 1px solid $primaryColor100;
+    border: 1px solid $primaryColor;
     /* Shadows/Tiny Shadow */
     box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.10);
     padding: 8px 20px;
@@ -1209,23 +1247,63 @@ textarea {
 .glaviso-dropdown-bottom {
     background: #ffffff !important;
     box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.1) !important;
-    border-radius: 8px !important;
-    width: 271px !important;
+    border-radius: 0 0 8px 8px !important;
+    width: 100% !important;
     box-sizing: border-box !important;
     border: none !important;
-    left: 30px !important;
-    li:not(:last-child) {
-        border-bottom: 1px solid rgba(2, 48, 71, 0.1);
-        padding-bottom: 10px;
-        display: block;
-        margin-bottom: 23px;
+    position: absolute;
+    top: 14px !important;
+    transform: translate3d(0px, 44px, 0px) !important;
+    left: 0;
+    li {
+        margin-bottom: 10px;
+        list-style-type: disc;
+    }
+    li a {
+        font-weight: 400;
     }
 
     li a:hover {
         color: $primaryColor;
     }
 }
-
+.nav-pills {
+    width: 28%;
+}
+.nav-pills button {
+    margin: 0 0 0.5rem 4rem;
+    border-radius: 50px !important;
+    color: $primaryColor100;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: $white;
+    background-color: $primaryColor;
+}
+.nav-pills button.active svg path, .nav-pills button.active svg  path {
+    fill: #ffffff;
+}
+.dropdown {
+    position: unset !important;
+    cursor: pointer;
+  }
+.tab-content {
+    width: 72%;
+    background: url("/assets/images/technologies/header-vector.png") top right/70% no-repeat, $skyColor;
+    position: relative;
+    padding-left: 80px;
+  }
+.dropdown-div {
+    background: url("/assets/images/technologies/header-vector-2.png") top left/32% no-repeat, $white;
+    height: 436px;
+} 
+.dropdown-tab {
+    text-wrap: nowrap;
+}
+.dropdown-tab-link {
+    position: absolute;
+    bottom: 6%;
+    right: 15%;
+}
 .upload-image-bottom {
     position: absolute;
     right: 20px;
@@ -1238,6 +1316,9 @@ textarea {
     /* 187.5% */
     letter-spacing: 0.08px;
 }
+.dropdown-toggle:hover .dropdown-menu.show, .dropdown-toggle:focus .dropdown-menu.show {
+    display: block;
+    }
 
 .upload-image-bottom label, .upload-image-top label {
     cursor: pointer !important;
@@ -1360,6 +1441,7 @@ a.btn-contain {
     width: 280px;
 
 }
+
 // Technologies
 .left-right-vector {
     background: url("/assets/images/left-vector.png") no-repeat top left, url("/assets/images/right-vector.png") no-repeat bottom right;
@@ -1387,14 +1469,14 @@ a.btn-contain {
         bottom: 10%;
         left: 73%;
 }
-.owl-carousel-portfolio .owl-prev, .owl-carousel-portfolio .owl-next {
+.owl-prev, .owl-next {
     color: transparent !important;
     font-size: 0 !important;
     margin: 0 !important;
     padding: 0 !important;
     background: none !important;
 }
-.owl-carousel-portfolio .owl-prev::before {
+.owl-prev::before {
     content: '';
     display: inline-block;
     width: 44px;
@@ -1402,17 +1484,23 @@ a.btn-contain {
     background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none"%3E%3Ccircle cx="22" cy="22" r="22" fill="white"%3E%3C/circle%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M21.6489 30.0501C21.1803 30.5187 20.4205 30.5187 19.9519 30.0501L12.7519 22.8501C12.2832 22.3815 12.2832 21.6217 12.7519 21.153L19.9519 13.953C20.4205 13.4844 21.1803 13.4844 21.6489 13.953C22.1175 14.4217 22.1175 15.1815 21.6489 15.6501L16.4974 20.8016H30.4004C31.0631 20.8016 31.6004 21.3388 31.6004 22.0016C31.6004 22.6643 31.0631 23.2016 30.4004 23.2016L16.4974 23.2016L21.6489 28.353C22.1175 28.8217 22.1175 29.5815 21.6489 30.0501Z" fill="%23023047"%3E%3C/path%3E%3C/svg%3E') !important;
     margin-right: 12px;
 }
-.owl-carousel-portfolio .owl-next::before {
+.owl-next::before {
     content: '';
     display: inline-block;
     width: 44px;
     height: 44px;
     background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none"%3E%3Ccircle cx="22" cy="22" r="22" fill="white"/%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M22.3519 13.953C22.8205 13.4844 23.5803 13.4844 24.0489 13.953L31.2489 21.153C31.7176 21.6217 31.7176 22.3815 31.2489 22.8501L24.0489 30.0501C23.5803 30.5187 22.8205 30.5187 22.3519 30.0501C21.8832 29.5815 21.8832 28.8217 22.3519 28.353L27.5033 23.2016L13.6004 23.2016C12.9377 23.2016 12.4004 22.6643 12.4004 22.0016C12.4004 21.3388 12.9377 20.8016 13.6004 20.8016H27.5033L22.3519 15.6501C21.8832 15.1815 21.8832 14.4217 22.3519 13.953Z" fill="%23023047"%3E%3C/path%3E%3C/svg%3E') !important;
 }
-.owl-nav {
+.owl-carousel-portfolio .owl-nav {
     position: absolute;
     top: 0;
     right: 0;
+}
+.custom-testimonails .owl-nav {
+    display: flex;
+    position: absolute;
+    top: 29%;
+    right: 4%;
 }
 
 /* media-queries */
@@ -1649,6 +1737,9 @@ a.btn-contain {
 }
 
 @media screen and (max-width: 992px) {
+    .custom-testimonails .owl-nav {
+        display: none;
+    }
     .testimonials-grids-warp.service-page::after {
         display: none;
     }
