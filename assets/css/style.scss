@@ -131,7 +131,7 @@ ul li.font-18.text-primar-100.ps-3 {
 .font-16 {
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 25px;
     /* 156.25% */
     letter-spacing: 0.08px;
@@ -193,7 +193,7 @@ ul li.font-18.text-primar-100.ps-3 {
     letter-spacing: 0.13px
 }
 .font-24 {
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
@@ -1553,6 +1553,9 @@ a.btn-contain {
     padding: 30px 20px 20px 20px;
     background: url("/assets/images/technologies/Wireframe Vector.png") top right/80% no-repeat, $skyColor;
     height: 100%;
+}
+.services-box div h3 {
+    color: $primaryColor100;
 }
 .testimonials-box {
     border-radius: 16px;
