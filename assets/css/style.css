@@ -148,14 +148,6 @@ ul li.font-18.text-primar-100.ps-3 {
   letter-spacing: 0.25px;
 }
 
-.font-18 {
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.09px;
-}
-
 .font-20 {
   font-size: 18px;
   font-style: normal;
@@ -945,6 +937,63 @@ input[type=checkbox] {
   background-size: contain;
 }
 
+.custom-btn {
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 8px 30px;
+  width: 190px;
+  max-width: 100%;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  z-index: 2;
+  font-weight: 500;
+}
+
+.custom-btn-blue {
+  text-align: center;
+  text-decoration: none;
+  color: #214BDB;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 8px 30px;
+  width: 190px;
+  max-width: 100%;
+  border: 1px solid #214BDB;
+  border-radius: 50px;
+  z-index: 2;
+  font-weight: 500;
+}
+
+.custom-btn span, .custom-btn-blue span {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: #214BDB;
+  transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.custom-btn:hover, .custom-btn-blue:hover {
+  color: #fff;
+}
+
+.custom-btn:hover span, .custom-btn-blue:hover span {
+  width: 225%;
+  height: 562.5px;
+}
+
+.custom-btn:active, .custom-btn-blue:active {
+  background-color: #214BDB;
+}
+
 .contact-us {
   border-radius: 45px;
   background-color: white;
@@ -952,7 +1001,6 @@ input[type=checkbox] {
   color: #214BDB !important;
   padding: 8px 34px;
   border: 1px solid #214BDB !important;
-  /* 125% */
   letter-spacing: 0.1px;
   transition: 0.4s;
 }
