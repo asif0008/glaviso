@@ -1536,7 +1536,6 @@ a.btn-contain {
 
 .exicution-slider .exicuton-box {
     width: 280px;
-
 }
 
 // Technologies
@@ -2072,6 +2071,9 @@ box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.10);
     .testimonials-box {
         height: 100%;
         padding: 15px 15px 40px 15px;
+    }
+    .left-right-partners-vector {
+        background: url("/assets/images/technologies/partners-frame.png") no-repeat top left;
     }
 }
 @media screen and (max-width:576px) {
