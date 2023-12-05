@@ -167,7 +167,7 @@ ul li.font-18.text-primar-100.ps-3 {
 .font-24 {
   font-size: 24px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 30px;
   letter-spacing: 0.12px;
 }
@@ -251,14 +251,14 @@ a {
 .custom-btn {
   text-align: center;
   text-decoration: none;
-  color: #ffffff;
+  color: #214BDB;
   position: relative;
   display: block;
   overflow: hidden;
   padding: 8px 30px;
   width: 190px;
   max-width: 100%;
-  border: 1px solid #ffffff;
+  border: 1px solid #214BDB;
   border-radius: 50px;
   z-index: 2;
   font-weight: 500;
@@ -287,7 +287,7 @@ a {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: #214BDB;
   transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
   transform: translate(-50%, -50%);
   z-index: -1;
@@ -306,7 +306,7 @@ a {
 }
 
 .custom-btn:hover {
-  color: #214BDB;
+  color: #ffffff;
 }
 
 .custom-btn-blue:hover {
@@ -968,7 +968,7 @@ input[type=checkbox] {
 .exicuton-box {
   border-radius: 16px;
   background: #F1F8FF;
-  box-shadow: -6px -6px 16px 0px rgba(33, 75, 219, 0.06) inset, 0px 10px 21px 0px rgba(0, 0, 0, 0.06), 6px 6px 16px 0px rgba(33, 75, 219, 0.06) inset;
+  box-shadow: -6px -6px 16px 0px rgba(33, 75, 219, 0.06) inset, 0px 10px 21px 0px rgba(0, 0, 0, 0.06), 6px 6px 16px 0px rgba(33, 75, 219, 0.06) inset !important;
   padding: 50px 24px 40px 24px;
   position: relative;
   min-height: 227px;
@@ -1216,7 +1216,6 @@ textarea {
 .frm-submit-btn {
   border-radius: 12px;
   border: 1px solid #214BDB;
-  /* Shadows/Tiny Shadow */
   box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.1);
   padding: 8px 20px;
   color: #214BDB;
@@ -1226,6 +1225,36 @@ textarea {
   line-height: 25px;
   letter-spacing: 0.06px;
   background-color: transparent;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  max-width: 100%;
+  z-index: 2;
+}
+
+.frm-submit-btn i {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: #ffffff;
+  transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.frm-submit-btn:hover {
+  color: #214BDB;
+}
+
+.frm-submit-btn:hover i {
+  width: 225%;
+  height: 562.5px;
+}
+
+.frm-submit-btn:active {
+  background-color: #214BDB;
 }
 
 .footer {
@@ -1580,6 +1609,26 @@ a.btn-contain {
   position: absolute;
   top: 29%;
   right: 4%;
+}
+
+.list-unstyled {
+  width: 100%;
+}
+
+.list-unstyled input {
+  color: rgba(2, 48, 71, 0.4) !important;
+  font-family: "Prompt", sans-serif !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 25px !important;
+  letter-spacing: 0.06px !important;
+  border-radius: 12px !important;
+  border: 0.2px solid #023047 !important;
+  background: #ffffff !important;
+  padding: 12px 22px !important;
+  /* Shadows/Tiny Shadow */
+  box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
 /* media-queries */
@@ -1952,5 +2001,14 @@ a.btn-contain {
 @media screen and (max-width: 576px) {
   .exicuton-box {
     min-height: 180px;
+  }
+  .services-box {
+    padding: 12px;
+  }
+  .footer-links li a {
+    font-size: 12px;
+  }
+  .footer-headings {
+    font-size: 12px !important;
   }
 }/*# sourceMappingURL=style.css.map */
