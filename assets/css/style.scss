@@ -1370,26 +1370,26 @@ textarea {
         color: $primaryColor;
     }
 }
-.nav-pills {
+.mega-menu {
     width: 28%;
 }
-.nav-pills button {
+.mega-menu button {
     margin: 0 0 0.5rem 4rem;
     border-radius: 50px !important;
     color: $primaryColor100;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.mega-menu .nav-link.active, .mega-menu .show>.nav-link {
     color: $white;
     background-color: $primaryColor;
 }
-.nav-pills button.active svg path, .nav-pills button.active svg  path {
+.mega-menu button.active svg path, .mega-menu button.active svg  path {
     fill: #ffffff;
 }
 .dropdown {
     position: unset !important;
     cursor: pointer;
   }
-.tab-content {
+.mega-menu-content {
     width: 72%;
     background: url("/assets/images/technologies/header-vector.png") top right/70% no-repeat, $skyColor;
     position: relative;
