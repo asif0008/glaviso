@@ -141,7 +141,7 @@ ul li.font-18.text-primar-100.ps-3 {
 }
 
 .font-50 {
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: 40px;
@@ -246,7 +246,80 @@ a {
   font-weight: 500;
   line-height: 25px;
   letter-spacing: 0.08px;
-  background-color: transparent;
+}
+
+.custom-btn {
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 8px 30px;
+  width: 190px;
+  max-width: 100%;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  z-index: 2;
+  font-weight: 500;
+}
+
+.custom-btn-blue {
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff !important;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 8px 30px;
+  width: 190px;
+  max-width: 100%;
+  border: 1px solid #214BDB !important;
+  border-radius: 50px;
+  z-index: 2;
+  font-weight: 500;
+  background: #214BDB;
+}
+
+.custom-btn span {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: #ffffff;
+  transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.custom-btn-blue span {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: #ffffff;
+  transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.custom-btn:hover {
+  color: #214BDB;
+}
+
+.custom-btn-blue:hover {
+  color: #214BDB !important;
+}
+
+.custom-btn:hover span, .custom-btn-blue:hover span {
+  width: 225%;
+  height: 562.5px;
+}
+
+.custom-btn:active, .custom-btn-blue:active {
+  background-color: #214BDB;
 }
 
 .header-logo {
@@ -935,63 +1008,6 @@ input[type=checkbox] {
 .our-exicution {
   background: url("../images/exicution.png") no-repeat center center;
   background-size: contain;
-}
-
-.custom-btn {
-  text-align: center;
-  text-decoration: none;
-  color: #ffffff;
-  position: relative;
-  display: block;
-  overflow: hidden;
-  padding: 8px 30px;
-  width: 190px;
-  max-width: 100%;
-  border: 1px solid #ffffff;
-  border-radius: 50px;
-  z-index: 2;
-  font-weight: 500;
-}
-
-.custom-btn-blue {
-  text-align: center;
-  text-decoration: none;
-  color: #214BDB;
-  position: relative;
-  display: block;
-  overflow: hidden;
-  padding: 8px 30px;
-  width: 190px;
-  max-width: 100%;
-  border: 1px solid #214BDB;
-  border-radius: 50px;
-  z-index: 2;
-  font-weight: 500;
-}
-
-.custom-btn span, .custom-btn-blue span {
-  position: absolute;
-  display: block;
-  width: 0;
-  height: 0;
-  border-radius: 50%;
-  background-color: #214BDB;
-  transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-}
-
-.custom-btn:hover, .custom-btn-blue:hover {
-  color: #fff;
-}
-
-.custom-btn:hover span, .custom-btn-blue:hover span {
-  width: 225%;
-  height: 562.5px;
-}
-
-.custom-btn:active, .custom-btn-blue:active {
-  background-color: #214BDB;
 }
 
 .contact-us {
@@ -1761,6 +1777,9 @@ a.btn-contain {
   .custom-testimonails .owl-nav {
     display: none;
   }
+  .owl-carousel-portfolio .owl-nav {
+    display: none;
+  }
   .testimonials-grids-warp.service-page::after {
     display: none;
   }
@@ -1768,13 +1787,14 @@ a.btn-contain {
     display: none;
   }
   .test-name {
-    font-size: 20px;
+    font-size: 18px;
   }
   .test-type {
     font-size: 16px;
   }
   .discr {
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 25px;
   }
   .testimonials-grids-warp {
     padding-top: 0px;
@@ -1927,5 +1947,10 @@ a.btn-contain {
   .testimonials-box {
     height: 100%;
     padding: 15px 15px 40px 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .exicuton-box {
+    min-height: 180px;
   }
 }/*# sourceMappingURL=style.css.map */

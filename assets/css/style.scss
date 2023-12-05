@@ -164,7 +164,7 @@ ul li.font-18.text-primar-100.ps-3 {
 }
 
 .font-50 {
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: 40px;
@@ -270,9 +270,81 @@ a {
         font-weight: 500;
         line-height: 25px;
         letter-spacing: 0.08px;
-        background-color: transparent;
+        // background-color: transparent;
     }
 }
+// custom button
+.custom-btn {
+    text-align: center;
+    text-decoration: none;
+    color: $white;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 8px 30px;
+    width: 190px;
+    max-width: 100%;
+    border: 1px solid $white;
+    border-radius: 50px;
+    z-index: 2;
+    font-weight: 500;
+  }
+.custom-btn-blue {
+    text-align: center;
+    text-decoration: none;
+    color: $white !important;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 8px 30px;
+    width: 190px;
+    max-width: 100%;
+    border: 1px solid $primaryColor !important;
+    border-radius: 50px;
+    z-index: 2;
+    font-weight: 500;
+    background: $primaryColor;
+  }
+  .custom-btn span {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: $white;
+    -webkit-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+.custom-btn-blue span {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: $white;
+    -webkit-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  .custom-btn:hover {
+    color: $primaryColor;
+  }
+.custom-btn-blue:hover {
+    color: $primaryColor !important;
+  }
+  .custom-btn:hover span, .custom-btn-blue:hover span {
+    width: 225%;
+    height: 562.5px;
+  }
+  .custom-btn:active, .custom-btn-blue:active {
+    background-color: #214BDB;
+  }  
+
 
 .header-logo {
     width: 159.373px;
@@ -952,61 +1024,6 @@ input[type="checkbox"] {
     background-size: contain;
 
 }
-// custom button
-.custom-btn {
-    text-align: center;
-    text-decoration: none;
-    color: $white;
-    position: relative;
-    display: block;
-    overflow: hidden;
-    padding: 8px 30px;
-    width: 190px;
-    max-width: 100%;
-    border: 1px solid $white;
-    border-radius: 50px;
-    z-index: 2;
-    font-weight: 500;
-  }
-.custom-btn-blue {
-    text-align: center;
-    text-decoration: none;
-    color: $primaryColor;
-    position: relative;
-    display: block;
-    overflow: hidden;
-    padding: 8px 30px;
-    width: 190px;
-    max-width: 100%;
-    border: 1px solid $primaryColor;
-    border-radius: 50px;
-    z-index: 2;
-    font-weight: 500;
-  }
-  .custom-btn span, .custom-btn-blue span {
-    position: absolute;
-    display: block;
-    width: 0;
-    height: 0;
-    border-radius: 50%;
-    background-color: #214BDB;
-    -webkit-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    z-index: -1;
-  }
-  .custom-btn:hover, .custom-btn-blue:hover {
-    color: #fff;
-  }
-  .custom-btn:hover span, .custom-btn-blue:hover span {
-    width: 225%;
-    height: 562.5px;
-  }
-  .custom-btn:active, .custom-btn-blue:active {
-    background-color: #214BDB;
-  }  
-
 .contact-us {
     border-radius: 45px;
     background-color: white;
@@ -1793,6 +1810,9 @@ a.btn-contain {
     .custom-testimonails .owl-nav {
         display: none;
     }
+    .owl-carousel-portfolio .owl-nav {
+        display: none;
+    }
     .testimonials-grids-warp.service-page::after {
         display: none;
     }
@@ -1802,7 +1822,7 @@ a.btn-contain {
     }
 
     .test-name {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .test-type {
@@ -1810,7 +1830,8 @@ a.btn-contain {
     }
 
     .discr {
-        font-size: 16px;
+        font-size: 14px;
+        line-height: 25px;
     }
 
     .testimonials-grids-warp {
@@ -2002,5 +2023,10 @@ a.btn-contain {
     .testimonials-box {
         height: 100%;
         padding: 15px 15px 40px 15px;
+    }
+}
+@media screen and (max-width:576px) {
+    .exicuton-box {
+        min-height: 180px;
     }
 }
