@@ -764,6 +764,13 @@ input[type=checkbox] {
   padding: 32px;
 }
 
+.other-services-box {
+  padding: 32px;
+  border-radius: 16px;
+  background: url("/assets/images/custom/other-services-vector.png") top center no-repeat, #F1F8FF;
+  box-shadow: -6px -6px 16px 0px rgba(33, 75, 219, 0.06) inset, 0px 10px 21px 0px rgba(0, 0, 0, 0.06), 6px 6px 16px 0px rgba(33, 75, 219, 0.06) inset;
+}
+
 .text-primary-clour-70 {
   color: rgba(2, 48, 71, 0.7);
 }
@@ -1113,7 +1120,7 @@ input[type=checkbox] {
   border-radius: 16px;
   background: #F1F8FF;
   box-shadow: -6px -6px 16px 0px rgba(33, 75, 219, 0.06) inset, 0px 10px 21px 0px rgba(0, 0, 0, 0.06), 6px 6px 16px 0px rgba(33, 75, 219, 0.06) inset;
-  padding: 60px 24px;
+  padding: 118px 24px;
   z-index: 1;
   position: relative;
   margin-top: 40px;
@@ -1542,12 +1549,16 @@ a.btn-contain {
   width: 280px;
 }
 
+.services-img {
+  width: 111px;
+}
+
 .left-right-vector {
   background: url("/assets/images/left-vector.png") no-repeat top left, url("/assets/images/right-vector.png") no-repeat bottom right;
 }
 
 .left-right-partners-vector {
-  background: url("/assets/images/technologies/partners-frame.png") no-repeat top left, url("/assets/images/technologies/partners-frame-2.png") no-repeat 100% 200%;
+  background: url("/assets/images/technologies/partners-frame.png") no-repeat top left, url("/assets/images/technologies/partners-frame-2.png") no-repeat 100% 100%;
   padding-bottom: 90px;
 }
 
@@ -1613,10 +1624,6 @@ a.btn-contain {
   position: absolute;
   top: 29%;
   right: 4%;
-}
-
-.list-unstyled {
-  width: 100%;
 }
 
 .list-unstyled input {
@@ -1997,6 +2004,9 @@ a.btn-contain {
   }
 }
 @media screen and (max-width: 768px) {
+  .list-unstyled {
+    width: 100%;
+  }
   .testimonials-box {
     height: 100%;
     padding: 15px 15px 40px 15px;
