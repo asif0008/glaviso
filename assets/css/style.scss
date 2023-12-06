@@ -1546,6 +1546,20 @@ a.btn-contain {
 .services-img {
     width: 111px;
 }
+// About us
+.hero-boxes div {
+    border-radius: 16px;
+    background: $skyColor;
+    box-shadow: -6px -6px 16px 0px rgba(33, 75, 219, 0.06) inset, 0px 10px 21px 0px rgba(0, 0, 0, 0.06), 6px 6px 16px 0px rgba(33, 75, 219, 0.06) inset;
+    padding: 8px 16px;
+    width: 100%;
+}
+.hero-boxes h4 {
+    color: $primaryColor;
+}
+.hero-boxes h5 {
+    color: $primaryColor90;
+}
 
 // Technologies
 .left-right-vector {
