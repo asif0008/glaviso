@@ -766,7 +766,7 @@ input[type=checkbox] {
 .other-services-box {
   padding: 32px;
   border-radius: 16px;
-  background: url("/assets/images/custom/other-services-vector.png") top center no-repeat, #F1F8FF;
+  background: url("assets/images/custom/other-services-vector.png") top center no-repeat, #F1F8FF;
   box-shadow: -6px -6px 16px 0px rgba(33, 75, 219, 0.06) inset, 0px 10px 21px 0px rgba(0, 0, 0, 0.06), 6px 6px 16px 0px rgba(33, 75, 219, 0.06) inset;
 }
 
@@ -1189,7 +1189,7 @@ textarea {
   border-radius: 16px;
   box-shadow: -6px -6px 16px 0px rgba(33, 75, 219, 0.06) inset, 0px 10px 21px 0px rgba(0, 0, 0, 0.06), 6px 6px 16px 0px rgba(33, 75, 219, 0.06) inset;
   padding: 30px 20px 20px 20px;
-  background: url("/assets/images/footer vector.png") top right/contain no-repeat, #F1F8FF;
+  background: url("assets/images/footer vector.png") top right/contain no-repeat, #F1F8FF;
   height: 100%;
 }
 
@@ -1392,13 +1392,13 @@ textarea {
 
 .mega-menu-content {
   width: 72%;
-  background: url("/assets/images/technologies/header-vector.png") top right/70% no-repeat, #F1F8FF;
+  background: url("assets/images/technologies/header-vector.png") top right/70% no-repeat, #F1F8FF;
   position: relative;
   padding-left: 80px;
 }
 
 .dropdown-div {
-  background: url("/assets/images/technologies/header-vector-2.png") top left/32% no-repeat, #ffffff;
+  background: url("assets/images/technologies/header-vector-2.png") top left/32% no-repeat, #ffffff;
   height: 436px;
 }
 
@@ -1581,7 +1581,7 @@ a.btn-contain {
   border-radius: 16px;
   box-shadow: -6px -6px 16px 0px rgba(33, 75, 219, 0.06) inset, 0px 10px 21px 0px rgba(0, 0, 0, 0.06), 6px 6px 16px 0px rgba(33, 75, 219, 0.06) inset;
   padding: 30px 20px 20px 20px;
-  background: url("/assets/images/technologies/Wireframe Vector.png") top right/80% no-repeat, #F1F8FF;
+  background: url("assets/images/technologies/Wireframe Vector.png") top right/80% no-repeat, #F1F8FF;
   height: 100%;
 }
 
@@ -1593,7 +1593,7 @@ a.btn-contain {
   border-radius: 16px;
   box-shadow: -6px -6px 16px 0px rgba(33, 75, 219, 0.06) inset, 0px 10px 21px 0px rgba(0, 0, 0, 0.06), 6px 6px 16px 0px rgba(33, 75, 219, 0.06) inset;
   padding: 30px 20px 20px 20px;
-  background: url("/assets/images/technologies/Wireframe Vector.png") bottom right -30%/57% no-repeat, #F1F8FF !important;
+  background: url("assets/images/technologies/Wireframe Vector.png") bottom right -30%/57% no-repeat, #F1F8FF !important;
   height: 513px;
 }
 
@@ -1632,6 +1632,8 @@ a.btn-contain {
   position: absolute;
   top: 0;
   right: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .custom-testimonails .owl-nav {
@@ -1804,7 +1806,7 @@ a.btn-contain {
     position: absolute;
     display: block;
     width: 300px;
-    height: 511px;
+    height: 518px;
     border-radius: 8px;
     border: 1px solid #214BDB;
     top: -91px;
