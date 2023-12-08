@@ -1518,9 +1518,10 @@ a.btn-contain {
   color: #023047;
 }
 
-.stack-accordian.service .accordion-body {
+.stack-accordian .accordion-body {
   padding-left: 0px;
   padding-right: 0px;
+  margin-top: 1rem;
 }
 
 .stack-accordian .accordion-button::after {
@@ -2021,6 +2022,9 @@ a.btn-contain {
   }
 }
 @media screen and (max-width: 768px) {
+  .banner-form .custom-btn-blue {
+    width: 250px !important;
+  }
   .list-unstyled {
     width: 100%;
   }
