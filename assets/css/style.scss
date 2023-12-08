@@ -778,7 +778,7 @@ input[type="checkbox"] {
 .other-services-box {
     padding: 32px;
     border-radius: 16px;
-    background: url("assets/images/custom/other-services-vector.png") top center no-repeat, $skyColor;
+    background: url("../images/custom/other-services-vector.png") top center no-repeat, $skyColor;
     box-shadow: -6px -6px 16px 0px rgba(33, 75, 219, 0.06) inset, 0px 10px 21px 0px rgba(0, 0, 0, 0.06), 6px 6px 16px 0px rgba(33, 75, 219, 0.06) inset;
 }
 
@@ -1196,7 +1196,7 @@ textarea {
     border-radius: 16px;
     box-shadow: -6px -6px 16px 0px rgba(33, 75, 219, 0.06) inset, 0px 10px 21px 0px rgba(0, 0, 0, 0.06), 6px 6px 16px 0px rgba(33, 75, 219, 0.06) inset;
     padding: 30px 20px 20px 20px;
-    background: url("assets/images/footer\ vector.png") top right/contain no-repeat, $skyColor;
+    background: url("../images/footer\ vector.png") top right/contain no-repeat, $skyColor;
     height: 100%;
 }
 .footer-box > div h4 {
@@ -1391,12 +1391,12 @@ textarea {
   }
 .mega-menu-content {
     width: 72%;
-    background: url("assets/images/technologies/header-vector.png") top right/70% no-repeat, $skyColor;
+    background: url("../images/technologies/header-vector.png") top right/82% no-repeat, $skyColor;
     position: relative;
     padding-left: 80px;
   }
 .dropdown-div {
-    background: url("assets/images/technologies/header-vector-2.png") top left/32% no-repeat, $white;
+    background: url("../images/technologies/header-vector-2.png") top left/32% no-repeat, $white;
     height: 436px;
 } 
 .dropdown-tab {
@@ -1563,17 +1563,17 @@ a.btn-contain {
 
 // Technologies
 .left-right-vector {
-    background: url("/assets/images/left-vector.png") no-repeat top left, url("/assets/images/right-vector.png") no-repeat bottom right;
+    background: url("../images/left-vector.png") no-repeat top left, url("../images/right-vector.png") no-repeat bottom right;
 }
 .left-right-partners-vector {
-    background: url('/assets/images/technologies/partners-frame.png') no-repeat top left, url('/assets/images/technologies/partners-frame-2.png') no-repeat 100% 100%;
+    background: url('../images/technologies/partners-frame.png') no-repeat top left, url('../images/technologies/partners-frame-2.png') no-repeat 100% 100%;
     padding-bottom: 90px;
 }
 .services-box {
     border-radius: 16px;
     box-shadow: -6px -6px 16px 0px rgba(33, 75, 219, 0.06) inset, 0px 10px 21px 0px rgba(0, 0, 0, 0.06), 6px 6px 16px 0px rgba(33, 75, 219, 0.06) inset;
     padding: 30px 20px 20px 20px;
-    background: url("assets/images/technologies/Wireframe Vector.png") top right/80% no-repeat, $skyColor;
+    background: url("../images/technologies/Wireframe Vector.png") top right/80% no-repeat, $skyColor;
     height: 100%;
 }
 .services-box div h3 {
@@ -1583,7 +1583,7 @@ a.btn-contain {
     border-radius: 16px;
     box-shadow: -6px -6px 16px 0px rgba(33, 75, 219, 0.06) inset, 0px 10px 21px 0px rgba(0, 0, 0, 0.06), 6px 6px 16px 0px rgba(33, 75, 219, 0.06) inset;
     padding: 30px 20px 20px 20px;
-    background: url("assets/images/technologies/Wireframe Vector.png") bottom right -30%/57% no-repeat, #F1F8FF !important;
+    background: url("../images/technologies/Wireframe Vector.png") bottom right -30%/57% no-repeat, #F1F8FF !important;
     height: 513px;
 }
 .owl-carousel-portfolio .owl-dots {
@@ -1658,12 +1658,12 @@ box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.10);
     .glaviso-partner {
         padding-top: 80px;
         padding-bottom: 30px;
-        background: url("/assets/images/technologies/question-mark-small.png") no-repeat 85% 0%, url('../images/question-mark.png') no-repeat center center, url("/assets/images/technologies/question-mark-small.png") no-repeat 17% 98%;
+        background: url("../images/technologies/question-mark-small.png") no-repeat 85% 0%, url('../images/question-mark.png') no-repeat center center, url("../images/technologies/question-mark-small.png") no-repeat 17% 98%;
     }
     .glaviso-process {
         padding-top: 80px;
         padding-bottom: 30px;
-        background: url("/assets/images/left-vector.png") no-repeat top left, url('/assets/images/technologies/Vector-line.png') no-repeat center center/contain, url("/assets/images/right-vector.png") no-repeat bottom right;
+        background: url("../images/left-vector.png") no-repeat top left, url('../images/technologies/Vector-line.png') no-repeat center center/contain, url("../images/right-vector.png") no-repeat bottom right;
     }
 
     .glaviso-banner {
@@ -1821,11 +1821,11 @@ box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.10);
         position: absolute;
         display: block;
         width: 300px;
-        height: 518px;
+        height: 457px;
         border-radius: 8px;
         border: 1px solid $primaryColor;
-        top: -91px;
-        left: -28px;
+        top: -63px;
+        left: -43px;
         z-index: -1;
     }
 
@@ -2104,7 +2104,7 @@ box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.10);
         padding: 15px 15px 40px 15px;
     }
     .left-right-partners-vector {
-        background: url("/assets/images/technologies/partners-frame.png") no-repeat top left;
+        background: url("../images/technologies/partners-frame.png") no-repeat top left;
     }
 }
 @media screen and (max-width:576px) {
