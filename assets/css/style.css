@@ -2079,9 +2079,6 @@ a.btn-contain {
     background-position: -30% 100% !important;
     background-size: 100% !important;
   }
-  .stack-accordian svg {
-    width: 220px;
-  }
   .glaviso-navbar.activenav {
     padding: unset;
     border-radius: unset;
