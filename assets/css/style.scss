@@ -1674,7 +1674,7 @@ box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.10);
     .glaviso-process {
         padding-top: 80px;
         padding-bottom: 30px;
-        background: url("../images/left-vector.png") no-repeat top left, url('../images/Vector-line.png') no-repeat center center/contain, url("../images/right-vector.png") no-repeat bottom right;
+        background: url("../images/left-vector.png") no-repeat top left, url('../images/vector-line.png') no-repeat center center/contain, url("../images/right-vector.png") no-repeat bottom right;
     }
 
     .glaviso-banner {
@@ -2143,5 +2143,8 @@ box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.10);
     .testimonials-box {
         background-position: -30% 100% !important;
         background-size: 100% !important;
+    }
+    .stack-accordian svg {
+        width: 220px;
     }
 }
