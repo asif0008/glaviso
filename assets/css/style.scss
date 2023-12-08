@@ -170,6 +170,9 @@ ul li.font-18.text-primar-100.ps-3 {
     line-height: 40px;
     letter-spacing: 0.25px;
 }
+.glaviso-banner .font-50 {
+    font-size: 24px !important;
+}
 
 // .font-18 {
 //     font-size: 12px;
@@ -442,7 +445,9 @@ a.side-nav-links:not(last-child) {
 .responsive_header .dropdown-heading-item {
     border: 0 !important;
 }
-
+.side-nav-accordion {
+    margin-bottom: 3rem;
+}
 .responsive_header .accordion-button:not(.collapsed) {
     color: var(--bs-accordion-active-color);
     background-color: transparent;
@@ -518,7 +523,9 @@ a.side-nav-links:not(last-child) {
     background-position: right;
     padding: 32px 16px;
 }
-
+.home-page img {
+    width: 443px;
+}
 .animated {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
     animation-duration: 2s;
@@ -2146,5 +2153,16 @@ box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.10);
     }
     .stack-accordian svg {
         width: 220px;
+    }
+    .glaviso-navbar.activenav {
+        padding: unset;
+        border-radius: unset;
+        background: unset;
+        box-shadow: unset;
+        -webkit-backdrop-filter: unset;
+        backdrop-filter: unset;
+        width: unset;
+        max-width: unset;
+        margin: unset;
     }
 }
