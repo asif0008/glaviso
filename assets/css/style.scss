@@ -1882,6 +1882,16 @@ box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.10);
 
     }
 }
+@media screen and (max-width:991px) {
+    header {
+        padding: 15px 0;
+        // position: fixed;
+        // top: 0;
+        // background: white;
+        // width: 100%;
+        // z-index: 999999;
+    }
+}
 
 @media screen and (max-width: 1290px) {
 

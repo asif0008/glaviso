@@ -1861,6 +1861,11 @@ a.btn-contain {
     padding-bottom: 160px;
   }
 }
+@media screen and (max-width: 991px) {
+  header {
+    padding: 15px 0;
+  }
+}
 @media screen and (max-width: 1290px) {
   .testimonials-grids-warp::after {
     left: -50px;
