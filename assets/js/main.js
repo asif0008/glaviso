@@ -1,7 +1,7 @@
 
 $(window).on('load', function () {
     var preLoder = $(".hola");
-    preLoder.fadeOut(3000);
+    preLoder.fadeOut(2000);
 });
 
 $(function () {
@@ -53,7 +53,7 @@ $(function () {
 $(document).ready(function () {
     $(window).on('load', function () {
         var preLoder = $(".hola");
-        preLoder.fadeOut(1000);
+        preLoder.fadeOut(3000);
     });
 
     if ($('.testimonials-grids-warp').length) {
