@@ -1,7 +1,7 @@
 
 $(window).on('load', function () {
     var preLoder = $(".hola");
-    preLoder.fadeOut(1000);
+    preLoder.fadeOut(3000);
 });
 
 $(function () {
